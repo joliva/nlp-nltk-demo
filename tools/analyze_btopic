@@ -1,0 +1,18 @@
+./runTopicBroad data/models/topicBroad.model ../tdt4 -M -Rtrain > tempfilebt
+
+for c in BT_1 BT_2 BT_3 BT_4 BT_5 BT_6 BT_7 BT_8 BT_9 BT_10 BT_11 BT_12 BT_13
+do
+	tools/wfreq $c tempfilebt analysis/btopic/1/$c
+done
+
+for c in BT_1 BT_2 BT_3 BT_4 BT_5 BT_6 BT_7 BT_8 BT_9 BT_10 BT_11 BT_12 BT_13
+do
+	tools/w2freq $c tempfilebt analysis/btopic/2/$c
+done
+
+for c in BT_1 BT_2 BT_3 BT_4 BT_5 BT_6 BT_7 BT_8 BT_9 BT_10 BT_11 BT_12 BT_13
+do
+	tools/w3freq $c tempfilebt analysis/btopic/3/$c
+done
+
+rm tempfilebt

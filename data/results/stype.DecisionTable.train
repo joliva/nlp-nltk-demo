@@ -1,0 +1,53 @@
+++ generating and saving model file
+
+Decision Table:
+
+Number of training instances: 97083
+Number of Rules : 7003
+Non matches covered by Majority class.
+Best first search for feature set,
+terminated after 5 non improving subsets.
+Evaluation (for feature selection): CV (leave one out) 
+Feature set: 1,5,6,7,8,9,10
+
+Time taken to build model: 27.42 seconds
+Time taken to test model on training data: 0.72 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances       84986               87.5395 %
+Incorrectly Classified Instances     12097               12.4605 %
+Kappa statistic                          0.6144
+Mean absolute error                      0.1785
+Root mean squared error                  0.2987
+Relative absolute error                 51.3662 %
+Root relative squared error             71.6705 %
+Total Number of Instances            97083     
+
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 13542  8190 |     a = BN
+  3907 71444 |     b = NWIRE
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances       82956               85.4485 %
+Incorrectly Classified Instances     14127               14.5515 %
+Kappa statistic                          0.5403
+Mean absolute error                      0.1984
+Root mean squared error                  0.331 
+Relative absolute error                 57.0898 %
+Root relative squared error             79.4158 %
+Total Number of Instances            97083     
+
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 11948  9784 |     a = BN
+  4343 71008 |     b = NWIRE
+

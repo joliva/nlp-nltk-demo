@@ -1,0 +1,18 @@
+./runSourceLang data/models/sourceLang.model ../tdt4 -M -Rtrain > tempfilesl
+
+for c in ARB ENG MAN
+do
+	tools/wfreq $c tempfilesl analysis/slang/1/$c
+done
+
+for c in ARB ENG MAN
+do
+	tools/w2freq $c tempfilesl analysis/slang/2/$c
+done
+
+for c in ARB ENG MAN
+do
+	tools/w3freq $c tempfilesl analysis/slang/3/$c
+done
+
+rm tempfilesl

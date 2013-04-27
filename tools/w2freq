@@ -1,0 +1,16 @@
+# print double word frequencies for lines in infile with given class
+
+usage="usage: w2freq class infile outfile"
+
+if [ $# -eq 3 ]
+then
+	grep $1 $2 | tr -sc 'A-Za-z' '\012' > $2_3 
+	tail +2 $2_3 > $2_4
+	paste $2_3 $2_4 > $2_5
+	sort $2_5 | uniq -c | sort -r > $2_6
+	sed -e 's/$/\t'$1'/' $2_6 > $3
+	rm $2_3 $2_4 $2_5 $2_6
+else
+	echo $usage
+fi
+

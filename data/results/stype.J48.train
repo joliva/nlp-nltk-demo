@@ -1,0 +1,1396 @@
+++ generating and saving model file
+
+J48 pruned tree
+------------------
+
+text_length <= 562
+|   NWIRE3_cnt <= 0
+|   |   text_length <= 137
+|   |   |   NWIRE2_cnt <= 0
+|   |   |   |   caps_cnt <= 1: BN (3348.0/295.0)
+|   |   |   |   caps_cnt > 1
+|   |   |   |   |   BN1_cnt <= 1
+|   |   |   |   |   |   text_length <= 53: BN (13.0)
+|   |   |   |   |   |   text_length > 53
+|   |   |   |   |   |   |   caps_cnt <= 5: NWIRE (61.0/3.0)
+|   |   |   |   |   |   |   caps_cnt > 5: BN (7.0/1.0)
+|   |   |   |   |   BN1_cnt > 1
+|   |   |   |   |   |   asciihigh_cnt <= 2
+|   |   |   |   |   |   |   NWIRE1_cnt <= 2: BN (379.0/8.0)
+|   |   |   |   |   |   |   NWIRE1_cnt > 2
+|   |   |   |   |   |   |   |   BN1_cnt <= 3: NWIRE (3.0)
+|   |   |   |   |   |   |   |   BN1_cnt > 3: BN (10.0)
+|   |   |   |   |   |   asciihigh_cnt > 2
+|   |   |   |   |   |   |   NWIRE1_cnt <= 0: NWIRE (4.0)
+|   |   |   |   |   |   |   NWIRE1_cnt > 0: BN (12.0/1.0)
+|   |   |   NWIRE2_cnt > 0
+|   |   |   |   caps_cnt <= 5
+|   |   |   |   |   NWIRE1_cnt <= 0: BN (15.0/2.0)
+|   |   |   |   |   NWIRE1_cnt > 0: NWIRE (182.0/67.0)
+|   |   |   |   caps_cnt > 5: BN (27.0)
+|   |   text_length > 137
+|   |   |   BN3_cnt <= 0
+|   |   |   |   NWIRE2_cnt <= 0
+|   |   |   |   |   NWIRE1_cnt <= 1
+|   |   |   |   |   |   asciihigh_cnt <= 14
+|   |   |   |   |   |   |   NWIRE1_cnt <= 0
+|   |   |   |   |   |   |   |   text_length <= 249: BN (238.0/14.0)
+|   |   |   |   |   |   |   |   text_length > 249
+|   |   |   |   |   |   |   |   |   BN2_cnt <= 0
+|   |   |   |   |   |   |   |   |   |   BN1_cnt <= 16
+|   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 7: NWIRE (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 7
+|   |   |   |   |   |   |   |   |   |   |   |   caps_cnt <= 13: BN (32.0/5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   caps_cnt > 13
+|   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 304: BN (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 304: NWIRE (11.0/2.0)
+|   |   |   |   |   |   |   |   |   |   BN1_cnt > 16: BN (66.0/9.0)
+|   |   |   |   |   |   |   |   |   BN2_cnt > 0: BN (31.0/3.0)
+|   |   |   |   |   |   |   NWIRE1_cnt > 0
+|   |   |   |   |   |   |   |   BN2_cnt <= 0
+|   |   |   |   |   |   |   |   |   asciihigh_cnt <= 1
+|   |   |   |   |   |   |   |   |   |   BN1_cnt <= 13
+|   |   |   |   |   |   |   |   |   |   |   caps_cnt <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   text_length <= 192
+|   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 7
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 3: BN (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 3: NWIRE (40.0/16.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 7: BN (95.0/17.0)
+|   |   |   |   |   |   |   |   |   |   |   |   text_length > 192
+|   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 199: NWIRE (14.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 199: BN (83.0/40.0)
+|   |   |   |   |   |   |   |   |   |   |   caps_cnt > 1
+|   |   |   |   |   |   |   |   |   |   |   |   text_length <= 308: BN (151.0/14.0)
+|   |   |   |   |   |   |   |   |   |   |   |   text_length > 308
+|   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 415: NWIRE (19.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 415: BN (2.0)
+|   |   |   |   |   |   |   |   |   |   BN1_cnt > 13: BN (291.0/54.0)
+|   |   |   |   |   |   |   |   |   asciihigh_cnt > 1
+|   |   |   |   |   |   |   |   |   |   BN1_cnt <= 14: BN (31.0/7.0)
+|   |   |   |   |   |   |   |   |   |   BN1_cnt > 14
+|   |   |   |   |   |   |   |   |   |   |   text_length <= 297: BN (2.0)
+|   |   |   |   |   |   |   |   |   |   |   text_length > 297
+|   |   |   |   |   |   |   |   |   |   |   |   asciihigh_cnt <= 8: NWIRE (12.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   asciihigh_cnt > 8
+|   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 397: NWIRE (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 397: BN (2.0)
+|   |   |   |   |   |   |   |   BN2_cnt > 0: BN (130.0/18.0)
+|   |   |   |   |   |   asciihigh_cnt > 14
+|   |   |   |   |   |   |   asciihigh_cnt <= 21: BN (6.0)
+|   |   |   |   |   |   |   asciihigh_cnt > 21: NWIRE (21.0)
+|   |   |   |   |   NWIRE1_cnt > 1
+|   |   |   |   |   |   BN2_cnt <= 0
+|   |   |   |   |   |   |   caps_cnt <= 2
+|   |   |   |   |   |   |   |   caps_cnt <= 0
+|   |   |   |   |   |   |   |   |   BN1_cnt <= 16
+|   |   |   |   |   |   |   |   |   |   text_length <= 176
+|   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 9
+|   |   |   |   |   |   |   |   |   |   |   |   text_length <= 142: BN (12.0)
+|   |   |   |   |   |   |   |   |   |   |   |   text_length > 142
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 5: NWIRE (108.0/48.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 5: BN (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 9
+|   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 3: BN (80.0/17.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 167: BN (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 167: NWIRE (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 4: BN (7.0)
+|   |   |   |   |   |   |   |   |   |   text_length > 176
+|   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 9: NWIRE (231.0/68.0)
+|   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 9
+|   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 11
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 10
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 191: BN (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 191: NWIRE (28.0/9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 10
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 270: NWIRE (25.0/7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 270: BN (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 11: BN (154.0/60.0)
+|   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 2: NWIRE (634.0/286.0)
+|   |   |   |   |   |   |   |   |   BN1_cnt > 16
+|   |   |   |   |   |   |   |   |   |   text_length <= 497
+|   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 23
+|   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 8: BN (749.0/285.0)
+|   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 8
+|   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 332: BN (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 332: NWIRE (40.0/11.0)
+|   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 23: BN (662.0/198.0)
+|   |   |   |   |   |   |   |   |   |   text_length > 497
+|   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 29: NWIRE (186.0/62.0)
+|   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 29
+|   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 9: BN (194.0/82.0)
+|   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 9: NWIRE (31.0/11.0)
+|   |   |   |   |   |   |   |   caps_cnt > 0
+|   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 4
+|   |   |   |   |   |   |   |   |   |   text_length <= 188: BN (25.0/3.0)
+|   |   |   |   |   |   |   |   |   |   text_length > 188
+|   |   |   |   |   |   |   |   |   |   |   caps_cnt <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   asciihigh_cnt <= 2: NWIRE (39.0/8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   asciihigh_cnt > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   asciihigh_cnt <= 11: BN (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   asciihigh_cnt > 11: NWIRE (2.0)
+|   |   |   |   |   |   |   |   |   |   |   caps_cnt > 1
+|   |   |   |   |   |   |   |   |   |   |   |   asciihigh_cnt <= 7
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 2: BN (14.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 15
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 229: BN (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 229
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 7: NWIRE (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 7: BN (8.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 15: NWIRE (8.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   asciihigh_cnt > 7: NWIRE (7.0/1.0)
+|   |   |   |   |   |   |   |   |   NWIRE1_cnt > 4
+|   |   |   |   |   |   |   |   |   |   caps_cnt <= 1: NWIRE (66.0/4.0)
+|   |   |   |   |   |   |   |   |   |   caps_cnt > 1
+|   |   |   |   |   |   |   |   |   |   |   text_length <= 406: BN (14.0/4.0)
+|   |   |   |   |   |   |   |   |   |   |   text_length > 406: NWIRE (16.0)
+|   |   |   |   |   |   |   caps_cnt > 2
+|   |   |   |   |   |   |   |   asciihigh_cnt <= 1
+|   |   |   |   |   |   |   |   |   caps_cnt <= 33
+|   |   |   |   |   |   |   |   |   |   text_length <= 345
+|   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 5: BN (408.0/63.0)
+|   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 5
+|   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 7: NWIRE (15.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 7: BN (46.0/6.0)
+|   |   |   |   |   |   |   |   |   |   text_length > 345
+|   |   |   |   |   |   |   |   |   |   |   caps_cnt <= 4
+|   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 6
+|   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 394: BN (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 394: NWIRE (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt > 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 28: BN (12.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 28: NWIRE (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 6: NWIRE (19.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   caps_cnt > 4
+|   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 12
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 2: NWIRE (15.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt <= 17
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 10
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 4: BN (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 4: NWIRE (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 10: BN (11.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt > 17: NWIRE (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 12: BN (540.0/184.0)
+|   |   |   |   |   |   |   |   |   caps_cnt > 33
+|   |   |   |   |   |   |   |   |   |   text_length <= 545: NWIRE (22.0)
+|   |   |   |   |   |   |   |   |   |   text_length > 545
+|   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 29: BN (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 29: NWIRE (2.0)
+|   |   |   |   |   |   |   |   asciihigh_cnt > 1
+|   |   |   |   |   |   |   |   |   asciihigh_cnt <= 21
+|   |   |   |   |   |   |   |   |   |   BN1_cnt <= 22
+|   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 7
+|   |   |   |   |   |   |   |   |   |   |   |   caps_cnt <= 15: BN (227.0/80.0)
+|   |   |   |   |   |   |   |   |   |   |   |   caps_cnt > 15
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 3: NWIRE (13.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 4: BN (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 437: BN (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 437: NWIRE (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 5: NWIRE (7.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 7
+|   |   |   |   |   |   |   |   |   |   |   |   text_length <= 527
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 8
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 21: NWIRE (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 21
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 469: BN (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 469: NWIRE (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 8
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 12
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt <= 9: NWIRE (6.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt > 9: BN (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 12: NWIRE (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   text_length > 527: BN (4.0)
+|   |   |   |   |   |   |   |   |   |   BN1_cnt > 22
+|   |   |   |   |   |   |   |   |   |   |   asciihigh_cnt <= 16: NWIRE (102.0/36.0)
+|   |   |   |   |   |   |   |   |   |   |   asciihigh_cnt > 16: BN (8.0/1.0)
+|   |   |   |   |   |   |   |   |   asciihigh_cnt > 21
+|   |   |   |   |   |   |   |   |   |   BN1_cnt <= 7: NWIRE (13.0)
+|   |   |   |   |   |   |   |   |   |   BN1_cnt > 7
+|   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 26
+|   |   |   |   |   |   |   |   |   |   |   |   asciihigh_cnt <= 41
+|   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 383: BN (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 383
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 508
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt <= 14: NWIRE (11.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt > 14
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt <= 18: BN (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt > 18: NWIRE (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 508
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   asciihigh_cnt <= 24
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   asciihigh_cnt <= 22: BN (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   asciihigh_cnt > 22: NWIRE (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   asciihigh_cnt > 24: BN (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   asciihigh_cnt > 41: BN (3.0)
+|   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 26: NWIRE (6.0)
+|   |   |   |   |   |   BN2_cnt > 0
+|   |   |   |   |   |   |   asciihigh_cnt <= 4
+|   |   |   |   |   |   |   |   caps_cnt <= 5
+|   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 2: BN (150.0/36.0)
+|   |   |   |   |   |   |   |   |   NWIRE1_cnt > 2
+|   |   |   |   |   |   |   |   |   |   caps_cnt <= 0
+|   |   |   |   |   |   |   |   |   |   |   text_length <= 289: NWIRE (126.0/59.0)
+|   |   |   |   |   |   |   |   |   |   |   text_length > 289
+|   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 26
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 8: BN (298.0/79.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 8: NWIRE (23.0/7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 26: BN (266.0/67.0)
+|   |   |   |   |   |   |   |   |   |   caps_cnt > 0
+|   |   |   |   |   |   |   |   |   |   |   caps_cnt <= 2: NWIRE (14.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   caps_cnt > 2
+|   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 11: NWIRE (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 11
+|   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 32: BN (15.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 32: NWIRE (2.0)
+|   |   |   |   |   |   |   |   caps_cnt > 5: BN (272.0/9.0)
+|   |   |   |   |   |   |   asciihigh_cnt > 4
+|   |   |   |   |   |   |   |   asciihigh_cnt <= 7: NWIRE (46.0)
+|   |   |   |   |   |   |   |   asciihigh_cnt > 7
+|   |   |   |   |   |   |   |   |   asciihigh_cnt <= 16
+|   |   |   |   |   |   |   |   |   |   asciihigh_cnt <= 11
+|   |   |   |   |   |   |   |   |   |   |   asciihigh_cnt <= 8: NWIRE (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   asciihigh_cnt > 8: BN (4.0)
+|   |   |   |   |   |   |   |   |   |   asciihigh_cnt > 11: NWIRE (3.0)
+|   |   |   |   |   |   |   |   |   asciihigh_cnt > 16: BN (6.0)
+|   |   |   |   NWIRE2_cnt > 0
+|   |   |   |   |   BN2_cnt <= 0
+|   |   |   |   |   |   caps_cnt <= 3
+|   |   |   |   |   |   |   caps_cnt <= 0
+|   |   |   |   |   |   |   |   NWIRE1_cnt <= 3
+|   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 0: BN (43.0/8.0)
+|   |   |   |   |   |   |   |   |   NWIRE1_cnt > 0
+|   |   |   |   |   |   |   |   |   |   BN1_cnt <= 14: NWIRE (365.0/87.0)
+|   |   |   |   |   |   |   |   |   |   BN1_cnt > 14
+|   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 1: BN (60.0/22.0)
+|   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 17
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 16: NWIRE (27.0/8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 16
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 230: BN (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 230
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 296: NWIRE (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 296: BN (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 17
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 492: BN (86.0/31.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 492: NWIRE (9.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 27: NWIRE (156.0/69.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 27: BN (36.0/12.0)
+|   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt > 1
+|   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 32: NWIRE (77.0/24.0)
+|   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 32: BN (6.0)
+|   |   |   |   |   |   |   |   NWIRE1_cnt > 3: NWIRE (1527.0/386.0)
+|   |   |   |   |   |   |   caps_cnt > 0
+|   |   |   |   |   |   |   |   caps_cnt <= 1: NWIRE (105.0/4.0)
+|   |   |   |   |   |   |   |   caps_cnt > 1
+|   |   |   |   |   |   |   |   |   asciihigh_cnt <= 16
+|   |   |   |   |   |   |   |   |   |   BN1_cnt <= 25
+|   |   |   |   |   |   |   |   |   |   |   caps_cnt <= 2: NWIRE (16.0/4.0)
+|   |   |   |   |   |   |   |   |   |   |   caps_cnt > 2
+|   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 4: BN (12.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 394: NWIRE (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 394: BN (2.0)
+|   |   |   |   |   |   |   |   |   |   BN1_cnt > 25: NWIRE (13.0)
+|   |   |   |   |   |   |   |   |   asciihigh_cnt > 16: NWIRE (21.0)
+|   |   |   |   |   |   caps_cnt > 3
+|   |   |   |   |   |   |   text_length <= 355
+|   |   |   |   |   |   |   |   asciihigh_cnt <= 3: BN (102.0/15.0)
+|   |   |   |   |   |   |   |   asciihigh_cnt > 3
+|   |   |   |   |   |   |   |   |   text_length <= 285: NWIRE (4.0)
+|   |   |   |   |   |   |   |   |   text_length > 285
+|   |   |   |   |   |   |   |   |   |   BN1_cnt <= 23: BN (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   BN1_cnt > 23: NWIRE (2.0)
+|   |   |   |   |   |   |   text_length > 355
+|   |   |   |   |   |   |   |   asciihigh_cnt <= 1
+|   |   |   |   |   |   |   |   |   BN1_cnt <= 12: NWIRE (15.0)
+|   |   |   |   |   |   |   |   |   BN1_cnt > 12
+|   |   |   |   |   |   |   |   |   |   text_length <= 458: BN (75.0/24.0)
+|   |   |   |   |   |   |   |   |   |   text_length > 458: NWIRE (90.0/24.0)
+|   |   |   |   |   |   |   |   asciihigh_cnt > 1
+|   |   |   |   |   |   |   |   |   BN1_cnt <= 26: NWIRE (58.0/6.0)
+|   |   |   |   |   |   |   |   |   BN1_cnt > 26
+|   |   |   |   |   |   |   |   |   |   caps_cnt <= 5: BN (2.0)
+|   |   |   |   |   |   |   |   |   |   caps_cnt > 5
+|   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   text_length <= 494: BN (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   text_length > 494: NWIRE (3.0)
+|   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt > 1: NWIRE (3.0/1.0)
+|   |   |   |   |   BN2_cnt > 0
+|   |   |   |   |   |   NWIRE1_cnt <= 3: BN (224.0/56.0)
+|   |   |   |   |   |   NWIRE1_cnt > 3
+|   |   |   |   |   |   |   NWIRE1_cnt <= 8
+|   |   |   |   |   |   |   |   text_length <= 288: NWIRE (39.0/8.0)
+|   |   |   |   |   |   |   |   text_length > 288
+|   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 1: BN (229.0/82.0)
+|   |   |   |   |   |   |   |   |   NWIRE2_cnt > 1
+|   |   |   |   |   |   |   |   |   |   BN2_cnt <= 1
+|   |   |   |   |   |   |   |   |   |   |   text_length <= 498
+|   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 7
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 348: BN (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 348: NWIRE (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 4: BN (7.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 6: NWIRE (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 6
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 376: BN (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 376: NWIRE (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 7: BN (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt > 2: NWIRE (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   text_length > 498: NWIRE (20.0/1.0)
+|   |   |   |   |   |   |   |   |   |   BN2_cnt > 1
+|   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 37: BN (11.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 37: NWIRE (2.0)
+|   |   |   |   |   |   |   NWIRE1_cnt > 8
+|   |   |   |   |   |   |   |   caps_cnt <= 0
+|   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 10: NWIRE (43.0/9.0)
+|   |   |   |   |   |   |   |   |   NWIRE1_cnt > 10
+|   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 15
+|   |   |   |   |   |   |   |   |   |   |   text_length <= 501: NWIRE (5.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   text_length > 501: BN (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 15: NWIRE (2.0)
+|   |   |   |   |   |   |   |   caps_cnt > 0: NWIRE (10.0/1.0)
+|   |   |   BN3_cnt > 0
+|   |   |   |   BN2_cnt <= 0
+|   |   |   |   |   NWIRE2_cnt <= 0: BN (169.0/29.0)
+|   |   |   |   |   NWIRE2_cnt > 0
+|   |   |   |   |   |   BN1_cnt <= 12: NWIRE (4.0)
+|   |   |   |   |   |   BN1_cnt > 12
+|   |   |   |   |   |   |   caps_cnt <= 17
+|   |   |   |   |   |   |   |   NWIRE1_cnt <= 1: BN (8.0)
+|   |   |   |   |   |   |   |   NWIRE1_cnt > 1
+|   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 2: NWIRE (3.0)
+|   |   |   |   |   |   |   |   |   NWIRE1_cnt > 2
+|   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 3: BN (7.0)
+|   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 3
+|   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt <= 16: BN (26.0/8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt > 16: NWIRE (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt > 1: NWIRE (10.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt > 2: BN (3.0)
+|   |   |   |   |   |   |   caps_cnt > 17: BN (10.0)
+|   |   |   |   BN2_cnt > 0
+|   |   |   |   |   BN3_cnt <= 1
+|   |   |   |   |   |   caps_cnt <= 8
+|   |   |   |   |   |   |   caps_cnt <= 1: BN (120.0/11.0)
+|   |   |   |   |   |   |   caps_cnt > 1
+|   |   |   |   |   |   |   |   BN2_cnt <= 3
+|   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 4: BN (19.0)
+|   |   |   |   |   |   |   |   |   NWIRE1_cnt > 4
+|   |   |   |   |   |   |   |   |   |   BN1_cnt <= 19: NWIRE (7.0)
+|   |   |   |   |   |   |   |   |   |   BN1_cnt > 19: BN (6.0)
+|   |   |   |   |   |   |   |   BN2_cnt > 3: NWIRE (3.0)
+|   |   |   |   |   |   caps_cnt > 8
+|   |   |   |   |   |   |   BN1_cnt <= 31: BN (114.0/2.0)
+|   |   |   |   |   |   |   BN1_cnt > 31
+|   |   |   |   |   |   |   |   NWIRE1_cnt <= 3: NWIRE (3.0)
+|   |   |   |   |   |   |   |   NWIRE1_cnt > 3: BN (5.0)
+|   |   |   |   |   BN3_cnt > 1: BN (165.0/1.0)
+|   NWIRE3_cnt > 0
+|   |   caps_cnt <= 3
+|   |   |   NWIRE1_cnt <= 1
+|   |   |   |   NWIRE1_cnt <= 0
+|   |   |   |   |   text_length <= 120: BN (2.0)
+|   |   |   |   |   text_length > 120
+|   |   |   |   |   |   text_length <= 192: NWIRE (3.0)
+|   |   |   |   |   |   text_length > 192: BN (6.0/1.0)
+|   |   |   |   NWIRE1_cnt > 0
+|   |   |   |   |   BN1_cnt <= 9
+|   |   |   |   |   |   text_length <= 125: BN (2.0)
+|   |   |   |   |   |   text_length > 125: NWIRE (18.0)
+|   |   |   |   |   BN1_cnt > 9
+|   |   |   |   |   |   BN2_cnt <= 0
+|   |   |   |   |   |   |   BN1_cnt <= 21: NWIRE (29.0/10.0)
+|   |   |   |   |   |   |   BN1_cnt > 21: BN (7.0)
+|   |   |   |   |   |   BN2_cnt > 0
+|   |   |   |   |   |   |   text_length <= 260: BN (3.0)
+|   |   |   |   |   |   |   text_length > 260: NWIRE (6.0/2.0)
+|   |   |   NWIRE1_cnt > 1: NWIRE (1070.0/133.0)
+|   |   caps_cnt > 3
+|   |   |   BN3_cnt <= 0
+|   |   |   |   NWIRE3_cnt <= 1
+|   |   |   |   |   text_length <= 232: BN (6.0)
+|   |   |   |   |   text_length > 232
+|   |   |   |   |   |   BN2_cnt <= 1
+|   |   |   |   |   |   |   caps_cnt <= 22: NWIRE (30.0/10.0)
+|   |   |   |   |   |   |   caps_cnt > 22: BN (7.0/1.0)
+|   |   |   |   |   |   BN2_cnt > 1: BN (2.0)
+|   |   |   |   NWIRE3_cnt > 1: NWIRE (5.0/1.0)
+|   |   |   BN3_cnt > 0: BN (7.0)
+text_length > 562
+|   BN3_cnt <= 0
+|   |   NWIRE1_cnt <= 12
+|   |   |   BN2_cnt <= 0: NWIRE (13615.0/2161.0)
+|   |   |   BN2_cnt > 0
+|   |   |   |   caps_cnt <= 2
+|   |   |   |   |   NWIRE1_cnt <= 5
+|   |   |   |   |   |   BN1_cnt <= 81
+|   |   |   |   |   |   |   NWIRE3_cnt <= 0
+|   |   |   |   |   |   |   |   BN2_cnt <= 1
+|   |   |   |   |   |   |   |   |   text_length <= 624
+|   |   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 0: BN (47.0/15.0)
+|   |   |   |   |   |   |   |   |   |   NWIRE2_cnt > 0
+|   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 26: BN (4.0)
+|   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 26: NWIRE (28.0/11.0)
+|   |   |   |   |   |   |   |   |   text_length > 624: NWIRE (153.0/52.0)
+|   |   |   |   |   |   |   |   BN2_cnt > 1
+|   |   |   |   |   |   |   |   |   BN2_cnt <= 3
+|   |   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 0
+|   |   |   |   |   |   |   |   |   |   |   BN2_cnt <= 2: BN (40.0/12.0)
+|   |   |   |   |   |   |   |   |   |   |   BN2_cnt > 2
+|   |   |   |   |   |   |   |   |   |   |   |   text_length <= 721: BN (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   text_length > 721: NWIRE (3.0)
+|   |   |   |   |   |   |   |   |   |   NWIRE2_cnt > 0
+|   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 32: NWIRE (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 32
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 2: BN (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   BN2_cnt <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 4: NWIRE (12.0/4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 43: BN (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 43: NWIRE (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt > 1: BN (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   BN2_cnt > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 4: BN (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 4: NWIRE (2.0)
+|   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt > 2: NWIRE (3.0)
+|   |   |   |   |   |   |   |   |   BN2_cnt > 3: BN (9.0)
+|   |   |   |   |   |   |   NWIRE3_cnt > 0
+|   |   |   |   |   |   |   |   caps_cnt <= 0
+|   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 1
+|   |   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 0
+|   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 51: NWIRE (31.0/4.0)
+|   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 51: BN (4.0)
+|   |   |   |   |   |   |   |   |   |   NWIRE2_cnt > 0
+|   |   |   |   |   |   |   |   |   |   |   BN2_cnt <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 693
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 648: BN (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 648: NWIRE (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 693: BN (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 731: BN (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 731: NWIRE (6.0)
+|   |   |   |   |   |   |   |   |   |   |   BN2_cnt > 1: BN (6.0/2.0)
+|   |   |   |   |   |   |   |   |   NWIRE2_cnt > 1: NWIRE (16.0/2.0)
+|   |   |   |   |   |   |   |   caps_cnt > 0: NWIRE (4.0)
+|   |   |   |   |   |   BN1_cnt > 81
+|   |   |   |   |   |   |   NWIRE3_cnt <= 1: BN (26.0/1.0)
+|   |   |   |   |   |   |   NWIRE3_cnt > 1: NWIRE (3.0)
+|   |   |   |   |   NWIRE1_cnt > 5
+|   |   |   |   |   |   NWIRE3_cnt <= 0
+|   |   |   |   |   |   |   caps_cnt <= 0
+|   |   |   |   |   |   |   |   BN1_cnt <= 93
+|   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 0
+|   |   |   |   |   |   |   |   |   |   BN1_cnt <= 33
+|   |   |   |   |   |   |   |   |   |   |   BN2_cnt <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   text_length <= 575: BN (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   text_length > 575: NWIRE (54.0/24.0)
+|   |   |   |   |   |   |   |   |   |   |   BN2_cnt > 1
+|   |   |   |   |   |   |   |   |   |   |   |   BN2_cnt <= 2: BN (13.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   BN2_cnt > 2: NWIRE (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   BN1_cnt > 33: NWIRE (601.0/198.0)
+|   |   |   |   |   |   |   |   |   NWIRE2_cnt > 0: NWIRE (1089.0/199.0)
+|   |   |   |   |   |   |   |   BN1_cnt > 93
+|   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 7
+|   |   |   |   |   |   |   |   |   |   BN2_cnt <= 1
+|   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 96: NWIRE (3.0)
+|   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 96: BN (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   BN2_cnt > 1: BN (12.0)
+|   |   |   |   |   |   |   |   |   NWIRE1_cnt > 7
+|   |   |   |   |   |   |   |   |   |   BN2_cnt <= 1
+|   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 120: NWIRE (45.0/17.0)
+|   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 120: BN (5.0)
+|   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt > 2: NWIRE (12.0/1.0)
+|   |   |   |   |   |   |   |   |   |   BN2_cnt > 1
+|   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 10
+|   |   |   |   |   |   |   |   |   |   |   |   text_length <= 1574
+|   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 95: NWIRE (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 95: BN (13.0)
+|   |   |   |   |   |   |   |   |   |   |   |   text_length > 1574
+|   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 1818: NWIRE (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 1818: BN (2.0)
+|   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 10
+|   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 98: NWIRE (9.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 98
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 1706
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 11: BN (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 11
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 0: BN (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt > 0: NWIRE (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 1706: NWIRE (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt > 2: BN (5.0)
+|   |   |   |   |   |   |   caps_cnt > 0: NWIRE (55.0/1.0)
+|   |   |   |   |   |   NWIRE3_cnt > 0: NWIRE (1103.0/110.0)
+|   |   |   |   caps_cnt > 2
+|   |   |   |   |   text_length <= 1209
+|   |   |   |   |   |   NWIRE3_cnt <= 0
+|   |   |   |   |   |   |   caps_cnt <= 37
+|   |   |   |   |   |   |   |   BN1_cnt <= 33
+|   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 0
+|   |   |   |   |   |   |   |   |   |   asciihigh_cnt <= 7
+|   |   |   |   |   |   |   |   |   |   |   caps_cnt <= 30: BN (55.0/4.0)
+|   |   |   |   |   |   |   |   |   |   |   caps_cnt > 30
+|   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 4: BN (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 28: BN (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 28: NWIRE (4.0)
+|   |   |   |   |   |   |   |   |   |   asciihigh_cnt > 7
+|   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 9
+|   |   |   |   |   |   |   |   |   |   |   |   text_length <= 747
+|   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt <= 22
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt <= 8: BN (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt > 8: NWIRE (14.0/5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt > 22: BN (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   text_length > 747: BN (13.0)
+|   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 9: NWIRE (2.0)
+|   |   |   |   |   |   |   |   |   NWIRE2_cnt > 0
+|   |   |   |   |   |   |   |   |   |   BN2_cnt <= 1
+|   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   caps_cnt <= 23
+|   |   |   |   |   |   |   |   |   |   |   |   |   asciihigh_cnt <= 8
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 662
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 619: BN (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 619: NWIRE (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 662: BN (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   asciihigh_cnt > 8: NWIRE (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   caps_cnt > 23: BN (12.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt > 1: NWIRE (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   BN2_cnt > 1: BN (5.0)
+|   |   |   |   |   |   |   |   BN1_cnt > 33
+|   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 0
+|   |   |   |   |   |   |   |   |   |   BN1_cnt <= 44: BN (118.0/29.0)
+|   |   |   |   |   |   |   |   |   |   BN1_cnt > 44
+|   |   |   |   |   |   |   |   |   |   |   text_length <= 993
+|   |   |   |   |   |   |   |   |   |   |   |   BN2_cnt <= 1: NWIRE (81.0/30.0)
+|   |   |   |   |   |   |   |   |   |   |   |   BN2_cnt > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt <= 30
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 10
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 51: BN (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 51: NWIRE (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 10: NWIRE (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt > 30: BN (5.0)
+|   |   |   |   |   |   |   |   |   |   |   text_length > 993
+|   |   |   |   |   |   |   |   |   |   |   |   BN2_cnt <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 62: BN (58.0/10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 62
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt <= 25
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 7: BN (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 7
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 1152: NWIRE (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 1152: BN (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt > 25: NWIRE (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   BN2_cnt > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt <= 33
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 55
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 1047: BN (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 1047: NWIRE (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 55: NWIRE (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt > 33: BN (2.0)
+|   |   |   |   |   |   |   |   |   NWIRE2_cnt > 0
+|   |   |   |   |   |   |   |   |   |   asciihigh_cnt <= 4
+|   |   |   |   |   |   |   |   |   |   |   BN2_cnt <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   asciihigh_cnt <= 2: NWIRE (64.0/30.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   asciihigh_cnt > 2: BN (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   asciihigh_cnt <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 980: BN (15.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 980
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 11: NWIRE (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 11: BN (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   asciihigh_cnt > 2: NWIRE (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   BN2_cnt > 1
+|   |   |   |   |   |   |   |   |   |   |   |   caps_cnt <= 22
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 896: BN (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 896: NWIRE (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt > 1: NWIRE (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   caps_cnt > 22: BN (14.0/2.0)
+|   |   |   |   |   |   |   |   |   |   asciihigh_cnt > 4
+|   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 6: NWIRE (16.0)
+|   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 6
+|   |   |   |   |   |   |   |   |   |   |   |   caps_cnt <= 30: NWIRE (24.0/6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   caps_cnt > 30: BN (3.0)
+|   |   |   |   |   |   |   caps_cnt > 37: BN (179.0/30.0)
+|   |   |   |   |   |   NWIRE3_cnt > 0
+|   |   |   |   |   |   |   BN2_cnt <= 2
+|   |   |   |   |   |   |   |   NWIRE2_cnt <= 0: NWIRE (14.0/3.0)
+|   |   |   |   |   |   |   |   NWIRE2_cnt > 0
+|   |   |   |   |   |   |   |   |   text_length <= 972: NWIRE (10.0/2.0)
+|   |   |   |   |   |   |   |   |   text_length > 972: BN (9.0/1.0)
+|   |   |   |   |   |   |   BN2_cnt > 2: NWIRE (2.0)
+|   |   |   |   |   text_length > 1209
+|   |   |   |   |   |   asciihigh_cnt <= 38
+|   |   |   |   |   |   |   NWIRE2_cnt <= 0
+|   |   |   |   |   |   |   |   BN1_cnt <= 59
+|   |   |   |   |   |   |   |   |   caps_cnt <= 59: BN (37.0/6.0)
+|   |   |   |   |   |   |   |   |   caps_cnt > 59: NWIRE (8.0/1.0)
+|   |   |   |   |   |   |   |   BN1_cnt > 59: NWIRE (195.0/78.0)
+|   |   |   |   |   |   |   NWIRE2_cnt > 0
+|   |   |   |   |   |   |   |   BN2_cnt <= 2: NWIRE (184.0/52.0)
+|   |   |   |   |   |   |   |   BN2_cnt > 2
+|   |   |   |   |   |   |   |   |   BN2_cnt <= 3: NWIRE (12.0/2.0)
+|   |   |   |   |   |   |   |   |   BN2_cnt > 3: BN (6.0/1.0)
+|   |   |   |   |   |   asciihigh_cnt > 38
+|   |   |   |   |   |   |   caps_cnt <= 38: NWIRE (28.0/1.0)
+|   |   |   |   |   |   |   caps_cnt > 38: BN (4.0/1.0)
+|   |   NWIRE1_cnt > 12
+|   |   |   BN2_cnt <= 0: NWIRE (27989.0/1056.0)
+|   |   |   BN2_cnt > 0
+|   |   |   |   NWIRE3_cnt <= 0
+|   |   |   |   |   text_length <= 2760
+|   |   |   |   |   |   BN2_cnt <= 2
+|   |   |   |   |   |   |   NWIRE2_cnt <= 0
+|   |   |   |   |   |   |   |   BN1_cnt <= 69
+|   |   |   |   |   |   |   |   |   caps_cnt <= 20
+|   |   |   |   |   |   |   |   |   |   BN1_cnt <= 45
+|   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 32: BN (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 32
+|   |   |   |   |   |   |   |   |   |   |   |   BN2_cnt <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt <= 14
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   asciihigh_cnt <= 6
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 38: NWIRE (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 38
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 19
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 13
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 714: BN (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 714: NWIRE (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 13: BN (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 19: NWIRE (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   asciihigh_cnt > 6: BN (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt > 14: NWIRE (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   BN2_cnt > 1: NWIRE (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   BN1_cnt > 45: NWIRE (251.0/52.0)
+|   |   |   |   |   |   |   |   |   caps_cnt > 20
+|   |   |   |   |   |   |   |   |   |   BN2_cnt <= 1: BN (135.0/48.0)
+|   |   |   |   |   |   |   |   |   |   BN2_cnt > 1
+|   |   |   |   |   |   |   |   |   |   |   caps_cnt <= 56
+|   |   |   |   |   |   |   |   |   |   |   |   text_length <= 1187
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 19
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 984: NWIRE (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 984: BN (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 19: NWIRE (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   text_length > 1187: NWIRE (10.0)
+|   |   |   |   |   |   |   |   |   |   |   caps_cnt > 56: BN (4.0)
+|   |   |   |   |   |   |   |   BN1_cnt > 69: NWIRE (1014.0/232.0)
+|   |   |   |   |   |   |   NWIRE2_cnt > 0
+|   |   |   |   |   |   |   |   caps_cnt <= 25: NWIRE (2718.0/439.0)
+|   |   |   |   |   |   |   |   caps_cnt > 25
+|   |   |   |   |   |   |   |   |   BN1_cnt <= 80
+|   |   |   |   |   |   |   |   |   |   caps_cnt <= 55: NWIRE (126.0/43.0)
+|   |   |   |   |   |   |   |   |   |   caps_cnt > 55: BN (32.0/7.0)
+|   |   |   |   |   |   |   |   |   BN1_cnt > 80: NWIRE (615.0/92.0)
+|   |   |   |   |   |   BN2_cnt > 2
+|   |   |   |   |   |   |   caps_cnt <= 88
+|   |   |   |   |   |   |   |   asciihigh_cnt <= 1
+|   |   |   |   |   |   |   |   |   BN2_cnt <= 5
+|   |   |   |   |   |   |   |   |   |   BN1_cnt <= 116
+|   |   |   |   |   |   |   |   |   |   |   caps_cnt <= 45
+|   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 857: BN (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 857
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   BN2_cnt <= 4: NWIRE (66.0/20.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   BN2_cnt > 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 20: BN (9.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 20: NWIRE (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt > 0: NWIRE (310.0/66.0)
+|   |   |   |   |   |   |   |   |   |   |   caps_cnt > 45
+|   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 1613: BN (12.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 1613
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 23: NWIRE (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 23: BN (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt > 1: NWIRE (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   BN1_cnt > 116
+|   |   |   |   |   |   |   |   |   |   |   caps_cnt <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 32
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 120: BN (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 120
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 0: BN (19.0/8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   BN2_cnt <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 31: NWIRE (18.0/5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 31: BN (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   BN2_cnt > 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   BN2_cnt <= 4: BN (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   BN2_cnt > 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 145: NWIRE (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 145: BN (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt > 1: NWIRE (61.0/27.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 32: BN (44.0/10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt > 2: NWIRE (125.0/42.0)
+|   |   |   |   |   |   |   |   |   |   |   caps_cnt > 0
+|   |   |   |   |   |   |   |   |   |   |   |   BN2_cnt <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 0: NWIRE (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 120: BN (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 120
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 1: NWIRE (11.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 2358: NWIRE (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 2358: BN (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 2517: NWIRE (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 2517: BN (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt > 4: NWIRE (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   BN2_cnt > 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 23: BN (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 23: NWIRE (11.0/1.0)
+|   |   |   |   |   |   |   |   |   BN2_cnt > 5
+|   |   |   |   |   |   |   |   |   |   BN1_cnt <= 156
+|   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 21: NWIRE (33.0/9.0)
+|   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 21
+|   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 23: NWIRE (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 23: BN (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt > 0: BN (12.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   BN2_cnt <= 7
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   BN2_cnt <= 6
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 117: BN (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 117
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 129: NWIRE (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 129
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 2244: BN (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 2244: NWIRE (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   BN2_cnt > 6
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 25: BN (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 25: NWIRE (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   BN2_cnt > 7: NWIRE (6.0)
+|   |   |   |   |   |   |   |   |   |   BN1_cnt > 156: BN (24.0/1.0)
+|   |   |   |   |   |   |   |   asciihigh_cnt > 1: NWIRE (71.0/9.0)
+|   |   |   |   |   |   |   caps_cnt > 88
+|   |   |   |   |   |   |   |   BN1_cnt <= 105: BN (18.0)
+|   |   |   |   |   |   |   |   BN1_cnt > 105
+|   |   |   |   |   |   |   |   |   caps_cnt <= 93: BN (4.0)
+|   |   |   |   |   |   |   |   |   caps_cnt > 93
+|   |   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 0: NWIRE (5.0)
+|   |   |   |   |   |   |   |   |   |   NWIRE2_cnt > 0
+|   |   |   |   |   |   |   |   |   |   |   BN2_cnt <= 4
+|   |   |   |   |   |   |   |   |   |   |   |   text_length <= 2590: NWIRE (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   text_length > 2590: BN (2.0)
+|   |   |   |   |   |   |   |   |   |   |   BN2_cnt > 4: BN (5.0/1.0)
+|   |   |   |   |   text_length > 2760: NWIRE (4594.0/415.0)
+|   |   |   |   NWIRE3_cnt > 0: NWIRE (11868.0/542.0)
+|   BN3_cnt > 0
+|   |   asciihigh_cnt <= 0
+|   |   |   text_length <= 2579
+|   |   |   |   BN2_cnt <= 1
+|   |   |   |   |   NWIRE3_cnt <= 0
+|   |   |   |   |   |   caps_cnt <= 48
+|   |   |   |   |   |   |   NWIRE1_cnt <= 31
+|   |   |   |   |   |   |   |   BN2_cnt <= 0
+|   |   |   |   |   |   |   |   |   text_length <= 936
+|   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 6
+|   |   |   |   |   |   |   |   |   |   |   text_length <= 583: BN (4.0)
+|   |   |   |   |   |   |   |   |   |   |   text_length > 583
+|   |   |   |   |   |   |   |   |   |   |   |   BN3_cnt <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 775: BN (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 775: NWIRE (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 4: NWIRE (25.0/5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   BN3_cnt > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 4: NWIRE (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt <= 32: NWIRE (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt > 32: BN (2.0)
+|   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 6
+|   |   |   |   |   |   |   |   |   |   |   BN3_cnt <= 1: BN (123.0/54.0)
+|   |   |   |   |   |   |   |   |   |   |   BN3_cnt > 1
+|   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 37: NWIRE (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 37: BN (10.0/1.0)
+|   |   |   |   |   |   |   |   |   text_length > 936
+|   |   |   |   |   |   |   |   |   |   caps_cnt <= 0
+|   |   |   |   |   |   |   |   |   |   |   BN3_cnt <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 26: NWIRE (105.0/32.0)
+|   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 26: BN (11.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   BN3_cnt > 1
+|   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 0: BN (8.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 18: NWIRE (12.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 18
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 128: BN (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 128: NWIRE (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   caps_cnt > 0: NWIRE (135.0/22.0)
+|   |   |   |   |   |   |   |   BN2_cnt > 0
+|   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 1: BN (260.0/88.0)
+|   |   |   |   |   |   |   |   |   NWIRE2_cnt > 1
+|   |   |   |   |   |   |   |   |   |   BN3_cnt <= 2
+|   |   |   |   |   |   |   |   |   |   |   BN3_cnt <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   text_length <= 1356
+|   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 1047
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 54
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 729: NWIRE (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 729: BN (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 54: NWIRE (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 1047: BN (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   text_length > 1356
+|   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 20: NWIRE (25.0/6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 20
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 30: BN (13.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 30: NWIRE (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt > 0: NWIRE (16.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   BN3_cnt > 1
+|   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 756: NWIRE (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 756: BN (8.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 1610: BN (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 1610: NWIRE (2.0)
+|   |   |   |   |   |   |   |   |   |   BN3_cnt > 2
+|   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 2: NWIRE (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt > 2: BN (4.0)
+|   |   |   |   |   |   |   NWIRE1_cnt > 31
+|   |   |   |   |   |   |   |   caps_cnt <= 1: BN (41.0/4.0)
+|   |   |   |   |   |   |   |   caps_cnt > 1: NWIRE (3.0/1.0)
+|   |   |   |   |   |   caps_cnt > 48
+|   |   |   |   |   |   |   text_length <= 1755
+|   |   |   |   |   |   |   |   BN2_cnt <= 0
+|   |   |   |   |   |   |   |   |   BN3_cnt <= 1
+|   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 9: NWIRE (24.0/2.0)
+|   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 9
+|   |   |   |   |   |   |   |   |   |   |   caps_cnt <= 52: NWIRE (11.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   caps_cnt > 52
+|   |   |   |   |   |   |   |   |   |   |   |   text_length <= 1181: BN (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   text_length > 1181: NWIRE (33.0/7.0)
+|   |   |   |   |   |   |   |   |   BN3_cnt > 1
+|   |   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 0: NWIRE (10.0/2.0)
+|   |   |   |   |   |   |   |   |   |   NWIRE2_cnt > 0
+|   |   |   |   |   |   |   |   |   |   |   BN3_cnt <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   text_length <= 1573
+|   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 55: NWIRE (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 55: BN (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   text_length > 1573: NWIRE (3.0)
+|   |   |   |   |   |   |   |   |   |   |   BN3_cnt > 2: BN (5.0/1.0)
+|   |   |   |   |   |   |   |   BN2_cnt > 0
+|   |   |   |   |   |   |   |   |   text_length <= 1384: BN (34.0/5.0)
+|   |   |   |   |   |   |   |   |   text_length > 1384
+|   |   |   |   |   |   |   |   |   |   BN3_cnt <= 2
+|   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 0: NWIRE (8.0)
+|   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt > 0
+|   |   |   |   |   |   |   |   |   |   |   |   BN3_cnt <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 67: NWIRE (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 67
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 1644: BN (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 1644
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt <= 75: NWIRE (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt > 75: BN (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   BN3_cnt > 1: NWIRE (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   BN3_cnt > 2: BN (3.0/1.0)
+|   |   |   |   |   |   |   text_length > 1755: NWIRE (297.0/22.0)
+|   |   |   |   |   NWIRE3_cnt > 0
+|   |   |   |   |   |   NWIRE3_cnt <= 1
+|   |   |   |   |   |   |   BN2_cnt <= 0: NWIRE (167.0/21.0)
+|   |   |   |   |   |   |   BN2_cnt > 0
+|   |   |   |   |   |   |   |   caps_cnt <= 39
+|   |   |   |   |   |   |   |   |   caps_cnt <= 30
+|   |   |   |   |   |   |   |   |   |   BN1_cnt <= 121
+|   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 42: BN (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 42: NWIRE (44.0/7.0)
+|   |   |   |   |   |   |   |   |   |   BN1_cnt > 121: BN (24.0/10.0)
+|   |   |   |   |   |   |   |   |   caps_cnt > 30: BN (4.0)
+|   |   |   |   |   |   |   |   caps_cnt > 39: NWIRE (27.0/3.0)
+|   |   |   |   |   |   NWIRE3_cnt > 1
+|   |   |   |   |   |   |   NWIRE2_cnt <= 1
+|   |   |   |   |   |   |   |   NWIRE1_cnt <= 28: NWIRE (62.0/4.0)
+|   |   |   |   |   |   |   |   NWIRE1_cnt > 28
+|   |   |   |   |   |   |   |   |   NWIRE3_cnt <= 2: BN (4.0)
+|   |   |   |   |   |   |   |   |   NWIRE3_cnt > 2: NWIRE (4.0)
+|   |   |   |   |   |   |   NWIRE2_cnt > 1: NWIRE (83.0)
+|   |   |   |   BN2_cnt > 1
+|   |   |   |   |   NWIRE3_cnt <= 0
+|   |   |   |   |   |   BN3_cnt <= 1
+|   |   |   |   |   |   |   caps_cnt <= 48: BN (456.0/59.0)
+|   |   |   |   |   |   |   caps_cnt > 48
+|   |   |   |   |   |   |   |   NWIRE1_cnt <= 14
+|   |   |   |   |   |   |   |   |   BN2_cnt <= 3
+|   |   |   |   |   |   |   |   |   |   caps_cnt <= 92: BN (34.0/2.0)
+|   |   |   |   |   |   |   |   |   |   caps_cnt > 92: NWIRE (3.0/1.0)
+|   |   |   |   |   |   |   |   |   BN2_cnt > 3: NWIRE (3.0/1.0)
+|   |   |   |   |   |   |   |   NWIRE1_cnt > 14
+|   |   |   |   |   |   |   |   |   caps_cnt <= 75: NWIRE (48.0/15.0)
+|   |   |   |   |   |   |   |   |   caps_cnt > 75
+|   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 26
+|   |   |   |   |   |   |   |   |   |   |   caps_cnt <= 97
+|   |   |   |   |   |   |   |   |   |   |   |   BN2_cnt <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt <= 86
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 18: BN (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 18: NWIRE (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt > 86: BN (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   BN2_cnt > 2: BN (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   caps_cnt > 97: NWIRE (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 26: BN (8.0)
+|   |   |   |   |   |   BN3_cnt > 1
+|   |   |   |   |   |   |   NWIRE2_cnt <= 2: BN (472.0/25.0)
+|   |   |   |   |   |   |   NWIRE2_cnt > 2
+|   |   |   |   |   |   |   |   NWIRE2_cnt <= 4
+|   |   |   |   |   |   |   |   |   BN2_cnt <= 3
+|   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 15: BN (7.0)
+|   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 15
+|   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 24: NWIRE (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 24
+|   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 31: BN (10.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 31: NWIRE (2.0)
+|   |   |   |   |   |   |   |   |   BN2_cnt > 3
+|   |   |   |   |   |   |   |   |   |   text_length <= 2120: BN (19.0)
+|   |   |   |   |   |   |   |   |   |   text_length > 2120
+|   |   |   |   |   |   |   |   |   |   |   text_length <= 2416: NWIRE (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   text_length > 2416: BN (3.0)
+|   |   |   |   |   |   |   |   NWIRE2_cnt > 4: BN (12.0)
+|   |   |   |   |   NWIRE3_cnt > 0
+|   |   |   |   |   |   NWIRE3_cnt <= 2
+|   |   |   |   |   |   |   BN1_cnt <= 102
+|   |   |   |   |   |   |   |   caps_cnt <= 78
+|   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 0
+|   |   |   |   |   |   |   |   |   |   BN3_cnt <= 1
+|   |   |   |   |   |   |   |   |   |   |   caps_cnt <= 23
+|   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 12
+|   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 51: NWIRE (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 51
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 955: NWIRE (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 955: BN (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 12: NWIRE (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   caps_cnt > 23: BN (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   BN3_cnt > 1: BN (5.0/1.0)
+|   |   |   |   |   |   |   |   |   NWIRE2_cnt > 0
+|   |   |   |   |   |   |   |   |   |   BN2_cnt <= 3
+|   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 1: NWIRE (20.0)
+|   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt > 1
+|   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt <= 35: BN (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt > 35: NWIRE (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt > 2: NWIRE (17.0/1.0)
+|   |   |   |   |   |   |   |   |   |   BN2_cnt > 3
+|   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 22: BN (4.0)
+|   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 22: NWIRE (2.0)
+|   |   |   |   |   |   |   |   caps_cnt > 78: BN (4.0)
+|   |   |   |   |   |   |   BN1_cnt > 102
+|   |   |   |   |   |   |   |   BN2_cnt <= 5
+|   |   |   |   |   |   |   |   |   BN3_cnt <= 3
+|   |   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 0: BN (11.0/1.0)
+|   |   |   |   |   |   |   |   |   |   NWIRE2_cnt > 0
+|   |   |   |   |   |   |   |   |   |   |   NWIRE3_cnt <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   BN3_cnt <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt <= 62
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 124
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 110: BN (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 110: NWIRE (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt > 2: NWIRE (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 124
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt <= 29: BN (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt > 29: NWIRE (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt > 62: BN (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   BN3_cnt > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt <= 33
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   BN2_cnt <= 2: NWIRE (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   BN2_cnt > 2: BN (10.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt > 33: NWIRE (2.0)
+|   |   |   |   |   |   |   |   |   |   |   NWIRE3_cnt > 1
+|   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 111: BN (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 111
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 24: NWIRE (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 24
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   BN2_cnt <= 3: BN (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   BN2_cnt > 3: NWIRE (3.0/1.0)
+|   |   |   |   |   |   |   |   |   BN3_cnt > 3: BN (6.0)
+|   |   |   |   |   |   |   |   BN2_cnt > 5: BN (8.0)
+|   |   |   |   |   |   NWIRE3_cnt > 2
+|   |   |   |   |   |   |   BN2_cnt <= 4: NWIRE (24.0/1.0)
+|   |   |   |   |   |   |   BN2_cnt > 4: BN (2.0)
+|   |   |   text_length > 2579
+|   |   |   |   BN2_cnt <= 3
+|   |   |   |   |   BN2_cnt <= 1
+|   |   |   |   |   |   caps_cnt <= 0
+|   |   |   |   |   |   |   NWIRE3_cnt <= 0
+|   |   |   |   |   |   |   |   NWIRE2_cnt <= 2
+|   |   |   |   |   |   |   |   |   text_length <= 2623: NWIRE (6.0/2.0)
+|   |   |   |   |   |   |   |   |   text_length > 2623: BN (29.0/10.0)
+|   |   |   |   |   |   |   |   NWIRE2_cnt > 2
+|   |   |   |   |   |   |   |   |   BN3_cnt <= 1
+|   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 29: BN (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 29: NWIRE (38.0/4.0)
+|   |   |   |   |   |   |   |   |   BN3_cnt > 1
+|   |   |   |   |   |   |   |   |   |   BN2_cnt <= 0: NWIRE (2.0)
+|   |   |   |   |   |   |   |   |   |   BN2_cnt > 0
+|   |   |   |   |   |   |   |   |   |   |   BN3_cnt <= 4
+|   |   |   |   |   |   |   |   |   |   |   |   BN3_cnt <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 224
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 2857: BN (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 2857: NWIRE (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 224: BN (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   BN3_cnt > 2: NWIRE (2.0)
+|   |   |   |   |   |   |   |   |   |   |   BN3_cnt > 4: BN (2.0)
+|   |   |   |   |   |   |   NWIRE3_cnt > 0
+|   |   |   |   |   |   |   |   NWIRE2_cnt <= 1
+|   |   |   |   |   |   |   |   |   NWIRE3_cnt <= 1
+|   |   |   |   |   |   |   |   |   |   BN1_cnt <= 166: NWIRE (2.0)
+|   |   |   |   |   |   |   |   |   |   BN1_cnt > 166: BN (7.0/1.0)
+|   |   |   |   |   |   |   |   |   NWIRE3_cnt > 1: NWIRE (8.0)
+|   |   |   |   |   |   |   |   NWIRE2_cnt > 1: NWIRE (223.0/7.0)
+|   |   |   |   |   |   caps_cnt > 0: NWIRE (2725.0/73.0)
+|   |   |   |   |   BN2_cnt > 1
+|   |   |   |   |   |   text_length <= 3995
+|   |   |   |   |   |   |   NWIRE3_cnt <= 2
+|   |   |   |   |   |   |   |   BN3_cnt <= 3
+|   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 0
+|   |   |   |   |   |   |   |   |   |   caps_cnt <= 52: BN (11.0/1.0)
+|   |   |   |   |   |   |   |   |   |   caps_cnt > 52
+|   |   |   |   |   |   |   |   |   |   |   BN2_cnt <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   BN3_cnt <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 2937
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt <= 81: NWIRE (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt > 81: BN (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 2937: NWIRE (12.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   BN3_cnt > 1: BN (10.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   BN2_cnt > 2
+|   |   |   |   |   |   |   |   |   |   |   |   BN3_cnt <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 3025: NWIRE (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 3025: BN (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   BN3_cnt > 1: NWIRE (3.0)
+|   |   |   |   |   |   |   |   |   NWIRE2_cnt > 0
+|   |   |   |   |   |   |   |   |   |   BN2_cnt <= 2
+|   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 50
+|   |   |   |   |   |   |   |   |   |   |   |   caps_cnt <= 74
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 3399
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE3_cnt <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt <= 60: BN (14.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt > 60: NWIRE (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE3_cnt > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 2760: BN (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 2760: NWIRE (9.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt > 2: BN (14.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 3399: NWIRE (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt > 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 25: BN (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 25: NWIRE (18.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   caps_cnt > 74: NWIRE (136.0/17.0)
+|   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 50: BN (21.0/7.0)
+|   |   |   |   |   |   |   |   |   |   BN2_cnt > 2
+|   |   |   |   |   |   |   |   |   |   |   NWIRE3_cnt <= 0: NWIRE (91.0/43.0)
+|   |   |   |   |   |   |   |   |   |   |   NWIRE3_cnt > 0
+|   |   |   |   |   |   |   |   |   |   |   |   caps_cnt <= 77: NWIRE (22.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   caps_cnt > 77
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 2: BN (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 6: NWIRE (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt > 6: BN (2.0)
+|   |   |   |   |   |   |   |   BN3_cnt > 3
+|   |   |   |   |   |   |   |   |   BN3_cnt <= 5
+|   |   |   |   |   |   |   |   |   |   text_length <= 3065: BN (10.0)
+|   |   |   |   |   |   |   |   |   |   text_length > 3065
+|   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 239
+|   |   |   |   |   |   |   |   |   |   |   |   NWIRE3_cnt <= 0: NWIRE (10.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   NWIRE3_cnt > 0: BN (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 239: BN (6.0)
+|   |   |   |   |   |   |   |   |   BN3_cnt > 5: BN (11.0)
+|   |   |   |   |   |   |   NWIRE3_cnt > 2: NWIRE (41.0)
+|   |   |   |   |   |   text_length > 3995
+|   |   |   |   |   |   |   BN3_cnt <= 3: NWIRE (1258.0/68.0)
+|   |   |   |   |   |   |   BN3_cnt > 3
+|   |   |   |   |   |   |   |   BN3_cnt <= 8
+|   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 82
+|   |   |   |   |   |   |   |   |   |   BN2_cnt <= 2
+|   |   |   |   |   |   |   |   |   |   |   caps_cnt <= 110: BN (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   caps_cnt > 110
+|   |   |   |   |   |   |   |   |   |   |   |   NWIRE3_cnt <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 1: NWIRE (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   BN3_cnt <= 5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   BN3_cnt <= 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 3: BN (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt > 3: NWIRE (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   BN3_cnt > 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 4: NWIRE (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt > 4: BN (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   BN3_cnt > 5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt <= 156: BN (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt > 156
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   BN3_cnt <= 6: NWIRE (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   BN3_cnt > 6
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt <= 171: BN (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt > 171: NWIRE (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   NWIRE3_cnt > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 425: NWIRE (15.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 425: BN (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   BN2_cnt > 2
+|   |   |   |   |   |   |   |   |   |   |   text_length <= 5579
+|   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 309: NWIRE (25.0/5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 309: BN (3.0)
+|   |   |   |   |   |   |   |   |   |   |   text_length > 5579: NWIRE (18.0)
+|   |   |   |   |   |   |   |   |   NWIRE1_cnt > 82: NWIRE (37.0)
+|   |   |   |   |   |   |   |   BN3_cnt > 8
+|   |   |   |   |   |   |   |   |   BN3_cnt <= 11
+|   |   |   |   |   |   |   |   |   |   caps_cnt <= 142: BN (3.0)
+|   |   |   |   |   |   |   |   |   |   caps_cnt > 142
+|   |   |   |   |   |   |   |   |   |   |   caps_cnt <= 199: NWIRE (3.0)
+|   |   |   |   |   |   |   |   |   |   |   caps_cnt > 199: BN (3.0/1.0)
+|   |   |   |   |   |   |   |   |   BN3_cnt > 11: BN (5.0)
+|   |   |   |   BN2_cnt > 3
+|   |   |   |   |   text_length <= 5256
+|   |   |   |   |   |   NWIRE3_cnt <= 1
+|   |   |   |   |   |   |   BN2_cnt <= 6
+|   |   |   |   |   |   |   |   BN3_cnt <= 2
+|   |   |   |   |   |   |   |   |   BN2_cnt <= 4
+|   |   |   |   |   |   |   |   |   |   NWIRE3_cnt <= 0
+|   |   |   |   |   |   |   |   |   |   |   BN3_cnt <= 1: NWIRE (65.0/30.0)
+|   |   |   |   |   |   |   |   |   |   |   BN3_cnt > 1
+|   |   |   |   |   |   |   |   |   |   |   |   caps_cnt <= 166
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 3: BN (26.0/7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt > 3: NWIRE (7.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   caps_cnt > 166: BN (5.0)
+|   |   |   |   |   |   |   |   |   |   NWIRE3_cnt > 0
+|   |   |   |   |   |   |   |   |   |   |   text_length <= 3930
+|   |   |   |   |   |   |   |   |   |   |   |   BN3_cnt <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 237
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 192: BN (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 192: NWIRE (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 237: BN (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   BN3_cnt > 1: BN (2.0)
+|   |   |   |   |   |   |   |   |   |   |   text_length > 3930: NWIRE (16.0/2.0)
+|   |   |   |   |   |   |   |   |   BN2_cnt > 4
+|   |   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 0: BN (11.0)
+|   |   |   |   |   |   |   |   |   |   NWIRE2_cnt > 0
+|   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 190
+|   |   |   |   |   |   |   |   |   |   |   |   text_length <= 2817: BN (7.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   text_length > 2817: NWIRE (12.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 190
+|   |   |   |   |   |   |   |   |   |   |   |   text_length <= 3971: BN (45.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   text_length > 3971
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE3_cnt <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   BN3_cnt <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 6
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   BN2_cnt <= 5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 4584: BN (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 4584
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 326
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 274: BN (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 274: NWIRE (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 326: BN (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   BN2_cnt > 5: NWIRE (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt > 6: BN (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   BN3_cnt > 1: BN (15.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE3_cnt > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 66
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 43: BN (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 43: NWIRE (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 66: BN (2.0)
+|   |   |   |   |   |   |   |   BN3_cnt > 2
+|   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 3: BN (83.0/11.0)
+|   |   |   |   |   |   |   |   |   NWIRE2_cnt > 3
+|   |   |   |   |   |   |   |   |   |   NWIRE3_cnt <= 0
+|   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 271
+|   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 45: BN (18.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 45: NWIRE (10.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 271: BN (14.0)
+|   |   |   |   |   |   |   |   |   |   NWIRE3_cnt > 0
+|   |   |   |   |   |   |   |   |   |   |   text_length <= 3991: BN (4.0)
+|   |   |   |   |   |   |   |   |   |   |   text_length > 3991
+|   |   |   |   |   |   |   |   |   |   |   |   BN3_cnt <= 3: NWIRE (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   BN3_cnt > 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 268: NWIRE (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 268: BN (2.0)
+|   |   |   |   |   |   |   BN2_cnt > 6
+|   |   |   |   |   |   |   |   BN3_cnt <= 1
+|   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 30
+|   |   |   |   |   |   |   |   |   |   caps_cnt <= 0: BN (3.0)
+|   |   |   |   |   |   |   |   |   |   caps_cnt > 0: NWIRE (5.0)
+|   |   |   |   |   |   |   |   |   NWIRE1_cnt > 30
+|   |   |   |   |   |   |   |   |   |   text_length <= 4317: BN (32.0/2.0)
+|   |   |   |   |   |   |   |   |   |   text_length > 4317
+|   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 302: NWIRE (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 302: BN (11.0/1.0)
+|   |   |   |   |   |   |   |   BN3_cnt > 1: BN (111.0/5.0)
+|   |   |   |   |   |   NWIRE3_cnt > 1
+|   |   |   |   |   |   |   BN2_cnt <= 7
+|   |   |   |   |   |   |   |   BN3_cnt <= 2
+|   |   |   |   |   |   |   |   |   BN2_cnt <= 5: NWIRE (39.0/4.0)
+|   |   |   |   |   |   |   |   |   BN2_cnt > 5
+|   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 48: NWIRE (9.0/1.0)
+|   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 48
+|   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 8: BN (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt > 8: NWIRE (2.0)
+|   |   |   |   |   |   |   |   BN3_cnt > 2
+|   |   |   |   |   |   |   |   |   caps_cnt <= 127: BN (6.0)
+|   |   |   |   |   |   |   |   |   caps_cnt > 127: NWIRE (4.0/1.0)
+|   |   |   |   |   |   |   BN2_cnt > 7
+|   |   |   |   |   |   |   |   BN3_cnt <= 1
+|   |   |   |   |   |   |   |   |   BN2_cnt <= 9: BN (6.0/1.0)
+|   |   |   |   |   |   |   |   |   BN2_cnt > 9: NWIRE (2.0)
+|   |   |   |   |   |   |   |   BN3_cnt > 1: BN (5.0)
+|   |   |   |   |   text_length > 5256
+|   |   |   |   |   |   BN2_cnt <= 10
+|   |   |   |   |   |   |   BN3_cnt <= 2
+|   |   |   |   |   |   |   |   NWIRE3_cnt <= 2
+|   |   |   |   |   |   |   |   |   BN2_cnt <= 5: NWIRE (219.0/16.0)
+|   |   |   |   |   |   |   |   |   BN2_cnt > 5
+|   |   |   |   |   |   |   |   |   |   text_length <= 9388
+|   |   |   |   |   |   |   |   |   |   |   NWIRE3_cnt <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   BN2_cnt <= 7
+|   |   |   |   |   |   |   |   |   |   |   |   |   BN2_cnt <= 6: NWIRE (32.0/8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   BN2_cnt > 6
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt <= 94: BN (7.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt > 94: NWIRE (9.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   BN2_cnt > 7
+|   |   |   |   |   |   |   |   |   |   |   |   |   BN3_cnt <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   BN2_cnt <= 9
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 64: NWIRE (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 64
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length <= 8691: BN (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   text_length > 8691: NWIRE (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   BN2_cnt > 9: NWIRE (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   BN3_cnt > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 5: NWIRE (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt > 5: BN (5.0)
+|   |   |   |   |   |   |   |   |   |   |   NWIRE3_cnt > 1
+|   |   |   |   |   |   |   |   |   |   |   |   text_length <= 8519: NWIRE (12.0)
+|   |   |   |   |   |   |   |   |   |   |   |   text_length > 8519: BN (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   text_length > 9388: NWIRE (28.0)
+|   |   |   |   |   |   |   |   NWIRE3_cnt > 2: NWIRE (150.0/3.0)
+|   |   |   |   |   |   |   BN3_cnt > 2
+|   |   |   |   |   |   |   |   text_length <= 9040
+|   |   |   |   |   |   |   |   |   BN2_cnt <= 6
+|   |   |   |   |   |   |   |   |   |   BN3_cnt <= 5
+|   |   |   |   |   |   |   |   |   |   |   NWIRE3_cnt <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   caps_cnt <= 55: BN (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   caps_cnt > 55
+|   |   |   |   |   |   |   |   |   |   |   |   |   BN3_cnt <= 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 82: NWIRE (23.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 82
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt <= 252: BN (8.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt > 252: NWIRE (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   BN3_cnt > 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 6
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt <= 170: NWIRE (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   caps_cnt > 170: BN (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt > 6: NWIRE (4.0)
+|   |   |   |   |   |   |   |   |   |   |   NWIRE3_cnt > 1: NWIRE (16.0/1.0)
+|   |   |   |   |   |   |   |   |   |   BN3_cnt > 5
+|   |   |   |   |   |   |   |   |   |   |   caps_cnt <= 211
+|   |   |   |   |   |   |   |   |   |   |   |   text_length <= 7290: BN (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   text_length > 7290
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt <= 3: BN (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   NWIRE2_cnt > 3: NWIRE (5.0)
+|   |   |   |   |   |   |   |   |   |   |   caps_cnt > 211: BN (10.0)
+|   |   |   |   |   |   |   |   |   BN2_cnt > 6
+|   |   |   |   |   |   |   |   |   |   BN2_cnt <= 9
+|   |   |   |   |   |   |   |   |   |   |   BN1_cnt <= 406
+|   |   |   |   |   |   |   |   |   |   |   |   text_length <= 6256: BN (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   text_length > 6256: NWIRE (6.0)
+|   |   |   |   |   |   |   |   |   |   |   BN1_cnt > 406: BN (27.0/3.0)
+|   |   |   |   |   |   |   |   |   |   BN2_cnt > 9: BN (9.0)
+|   |   |   |   |   |   |   |   text_length > 9040
+|   |   |   |   |   |   |   |   |   BN3_cnt <= 4: NWIRE (62.0/2.0)
+|   |   |   |   |   |   |   |   |   BN3_cnt > 4
+|   |   |   |   |   |   |   |   |   |   text_length <= 12255
+|   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt <= 116
+|   |   |   |   |   |   |   |   |   |   |   |   text_length <= 9634: BN (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   text_length > 9634: NWIRE (2.0)
+|   |   |   |   |   |   |   |   |   |   |   NWIRE1_cnt > 116: BN (5.0)
+|   |   |   |   |   |   |   |   |   |   text_length > 12255: NWIRE (25.0/1.0)
+|   |   |   |   |   |   BN2_cnt > 10
+|   |   |   |   |   |   |   NWIRE3_cnt <= 3: BN (112.0/21.0)
+|   |   |   |   |   |   |   NWIRE3_cnt > 3
+|   |   |   |   |   |   |   |   BN3_cnt <= 6: NWIRE (18.0/3.0)
+|   |   |   |   |   |   |   |   BN3_cnt > 6: BN (3.0)
+|   |   asciihigh_cnt > 0
+|   |   |   caps_cnt <= 2: NWIRE (87.0)
+|   |   |   caps_cnt > 2
+|   |   |   |   BN2_cnt <= 1
+|   |   |   |   |   BN2_cnt <= 0: NWIRE (70.0/4.0)
+|   |   |   |   |   BN2_cnt > 0
+|   |   |   |   |   |   caps_cnt <= 55
+|   |   |   |   |   |   |   BN1_cnt <= 38
+|   |   |   |   |   |   |   |   NWIRE2_cnt <= 0
+|   |   |   |   |   |   |   |   |   caps_cnt <= 19
+|   |   |   |   |   |   |   |   |   |   caps_cnt <= 9: BN (2.0)
+|   |   |   |   |   |   |   |   |   |   caps_cnt > 9: NWIRE (14.0/1.0)
+|   |   |   |   |   |   |   |   |   caps_cnt > 19: BN (6.0/1.0)
+|   |   |   |   |   |   |   |   NWIRE2_cnt > 0: NWIRE (4.0)
+|   |   |   |   |   |   |   BN1_cnt > 38
+|   |   |   |   |   |   |   |   text_length <= 3408: BN (95.0/8.0)
+|   |   |   |   |   |   |   |   text_length > 3408: NWIRE (6.0/1.0)
+|   |   |   |   |   |   caps_cnt > 55
+|   |   |   |   |   |   |   NWIRE2_cnt <= 1
+|   |   |   |   |   |   |   |   asciihigh_cnt <= 28
+|   |   |   |   |   |   |   |   |   text_length <= 2338: NWIRE (6.0)
+|   |   |   |   |   |   |   |   |   text_length > 2338: BN (10.0/1.0)
+|   |   |   |   |   |   |   |   asciihigh_cnt > 28: NWIRE (23.0)
+|   |   |   |   |   |   |   NWIRE2_cnt > 1
+|   |   |   |   |   |   |   |   caps_cnt <= 101: NWIRE (2.0)
+|   |   |   |   |   |   |   |   caps_cnt > 101: BN (2.0)
+|   |   |   |   BN2_cnt > 1: BN (1482.0/21.0)
+
+Number of Leaves  : 	673
+
+Size of the tree : 	1345
+
+
+Time taken to build model: 28.49 seconds
+Time taken to test model on training data: 0.19 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances       86400               88.996  %
+Incorrectly Classified Instances     10683               11.004  %
+Kappa statistic                          0.6522
+Mean absolute error                      0.1758
+Root mean squared error                  0.2965
+Relative absolute error                 50.5888 %
+Root relative squared error             71.1261 %
+Total Number of Instances            97083     
+
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 13657  8075 |     a = BN
+  2608 72743 |     b = NWIRE
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances       84791               87.3387 %
+Incorrectly Classified Instances     12292               12.6613 %
+Kappa statistic                          0.6005
+Mean absolute error                      0.188 
+Root mean squared error                  0.3162
+Relative absolute error                 54.1105 %
+Root relative squared error             75.8523 %
+Total Number of Instances            97083     
+
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 12904  8828 |     a = BN
+  3464 71887 |     b = NWIRE
+

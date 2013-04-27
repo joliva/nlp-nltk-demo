@@ -1,0 +1,17 @@
+# Source Type
+tools/optimize.py analysis/stype/1 1 'BN NWIRE' 
+tools/optimize.py analysis/stype/2 2 'BN NWIRE' 
+tools/optimize.py analysis/stype/3 3 'BN NWIRE' 
+
+# prepare Source Type configuration file
+
+echo "falen" > data/config/fextract_stype.config
+echo "faasciihigh" >> data/config/fextract_stype.config
+echo "facaps" >> data/config/fextract_stype.config
+for file in $(ls analysis/stype/?/*.call)
+do
+	cat $file >> data/config/fextract_stype.config
+	echo "" >> data/config/fextract_stype.config
+done
+echo "" >> data/config/fextract_stype.config
+

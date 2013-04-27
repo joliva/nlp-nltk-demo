@@ -1,0 +1,95 @@
+++ generating and saving model file
+
+Naive Bayes Classifier
+
+Class ARB: Prior probability = 0.44
+
+text_length:  Normal Distribution. Mean = 2129.7048 StandardDev = 2492.2695 WeightSum = 42236 Precision = 5.692260940032415
+asciihigh_cnt:  Normal Distribution. Mean = 0.9405 StandardDev = 10.8199 WeightSum = 42236 Precision = 2.5436893203883497
+caps_cnt:  Normal Distribution. Mean = 0.0968 StandardDev = 0.9351 WeightSum = 42236 Precision = 4.2220309810671255
+ARB1_cnt:  Normal Distribution. Mean = 33.264 StandardDev = 39.7662 WeightSum = 42236 Precision = 2.278688524590164
+ENG1_cnt:  Normal Distribution. Mean = 41.6222 StandardDev = 51.0385 WeightSum = 42236 Precision = 2.9392789373814043
+MAN1_cnt:  Normal Distribution. Mean = 0.6597 StandardDev = 1.1929 WeightSum = 42236 Precision = 1.8129496402877698
+ARB2_cnt:  Normal Distribution. Mean = 3.4988 StandardDev = 5.7081 WeightSum = 42236 Precision = 1.5394736842105263
+ENG2_cnt:  Normal Distribution. Mean = 9.6704 StandardDev = 12.3907 WeightSum = 42236 Precision = 2.1790123456790123
+MAN2_cnt:  Normal Distribution. Mean = 1.5716 StandardDev = 2.8794 WeightSum = 42236 Precision = 2.012987012987013
+ARB3_cnt:  Normal Distribution. Mean = 1.5429 StandardDev = 2.4765 WeightSum = 42236 Precision = 1.4324324324324325
+ENG3_cnt:  Normal Distribution. Mean = 0.0288 StandardDev = 0.3578 WeightSum = 42236 Precision = 2.1470588235294117
+MAN3_cnt:  Normal Distribution. Mean = 0.1826 StandardDev = 0.5464 WeightSum = 42236 Precision = 1.6097560975609757
+
+
+Class ENG: Prior probability = 0.29
+
+text_length:  Normal Distribution. Mean = 2497.347 StandardDev = 2617.4116 WeightSum = 28026 Precision = 5.692260940032415
+asciihigh_cnt:  Normal Distribution. Mean = 0.0013 StandardDev = 0.4239 WeightSum = 28026 Precision = 2.5436893203883497
+caps_cnt:  Normal Distribution. Mean = 71.6689 StandardDev = 101.37 WeightSum = 28026 Precision = 4.2220309810671255
+ARB1_cnt:  Normal Distribution. Mean = 26.233 StandardDev = 28.7904 WeightSum = 28026 Precision = 2.278688524590164
+ENG1_cnt:  Normal Distribution. Mean = 58.3507 StandardDev = 63.6965 WeightSum = 28026 Precision = 2.9392789373814043
+MAN1_cnt:  Normal Distribution. Mean = 1.1654 StandardDev = 3.1076 WeightSum = 28026 Precision = 1.8129496402877698
+ARB2_cnt:  Normal Distribution. Mean = 0.1265 StandardDev = 0.6438 WeightSum = 28026 Precision = 1.5394736842105263
+ENG2_cnt:  Normal Distribution. Mean = 13.3598 StandardDev = 15.9514 WeightSum = 28026 Precision = 2.1790123456790123
+MAN2_cnt:  Normal Distribution. Mean = 1.3338 StandardDev = 2.2543 WeightSum = 28026 Precision = 2.012987012987013
+ARB3_cnt:  Normal Distribution. Mean = 0.236 StandardDev = 0.6341 WeightSum = 28026 Precision = 1.4324324324324325
+ENG3_cnt:  Normal Distribution. Mean = 0.8281 StandardDev = 2.0007 WeightSum = 28026 Precision = 2.1470588235294117
+MAN3_cnt:  Normal Distribution. Mean = 0.2007 StandardDev = 0.5792 WeightSum = 28026 Precision = 1.6097560975609757
+
+
+Class MAN: Prior probability = 0.28
+
+text_length:  Normal Distribution. Mean = 2358.3438 StandardDev = 2099.1535 WeightSum = 26821 Precision = 5.692260940032415
+asciihigh_cnt:  Normal Distribution. Mean = 31.3665 StandardDev = 40.6894 WeightSum = 26821 Precision = 2.5436893203883497
+caps_cnt:  Normal Distribution. Mean = 39.1273 StandardDev = 39.0614 WeightSum = 26821 Precision = 4.2220309810671255
+ARB1_cnt:  Normal Distribution. Mean = 23.5458 StandardDev = 22.1999 WeightSum = 26821 Precision = 2.278688524590164
+ENG1_cnt:  Normal Distribution. Mean = 53.2475 StandardDev = 49.7228 WeightSum = 26821 Precision = 2.9392789373814043
+MAN1_cnt:  Normal Distribution. Mean = 10.7174 StandardDev = 13.8663 WeightSum = 26821 Precision = 1.8129496402877698
+ARB2_cnt:  Normal Distribution. Mean = 0.0085 StandardDev = 0.2566 WeightSum = 26821 Precision = 1.5394736842105263
+ENG2_cnt:  Normal Distribution. Mean = 5.7939 StandardDev = 6.6028 WeightSum = 26821 Precision = 2.1790123456790123
+MAN2_cnt:  Normal Distribution. Mean = 5.284 StandardDev = 6.5765 WeightSum = 26821 Precision = 2.012987012987013
+ARB3_cnt:  Normal Distribution. Mean = 0.0026 StandardDev = 0.2387 WeightSum = 26821 Precision = 1.4324324324324325
+ENG3_cnt:  Normal Distribution. Mean = 0.0354 StandardDev = 0.3578 WeightSum = 26821 Precision = 2.1470588235294117
+MAN3_cnt:  Normal Distribution. Mean = 2.5112 StandardDev = 3.2909 WeightSum = 26821 Precision = 1.6097560975609757
+
+
+Time taken to build model: 1.81 seconds
+Time taken to test model on training data: 1.86 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances       84258               86.7897 %
+Incorrectly Classified Instances     12825               13.2103 %
+Kappa statistic                          0.7929
+Mean absolute error                      0.0982
+Root mean squared error                  0.2526
+Relative absolute error                 22.6235 %
+Root relative squared error             54.2273 %
+Total Number of Instances            97083     
+
+
+=== Confusion Matrix ===
+
+     a     b     c   <-- classified as
+ 41182   916   138 |     a = ARB
+  8081 19751   194 |     b = ENG
+  1383  2113 23325 |     c = MAN
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances       84236               86.767  %
+Incorrectly Classified Instances     12847               13.233  %
+Kappa statistic                          0.7926
+Mean absolute error                      0.098 
+Root mean squared error                  0.2533
+Relative absolute error                 22.5739 %
+Root relative squared error             54.3674 %
+Total Number of Instances            97083     
+
+
+=== Confusion Matrix ===
+
+     a     b     c   <-- classified as
+ 41124   971   141 |     a = ARB
+  8047 19792   187 |     b = ENG
+  1354  2147 23320 |     c = MAN
+

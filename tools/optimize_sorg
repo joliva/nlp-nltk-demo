@@ -1,0 +1,17 @@
+# Source Organization
+tools/optimize.py analysis/sorg/1 1 'APW NYT CNN ABC NBC PRI VOA MNB XIN ZBN CBS CTS VOM CNR CTV AFP ALH ANN VAR NTV' 
+tools/optimize.py analysis/sorg/2 2 'APW NYT CNN ABC NBC PRI VOA MNB XIN ZBN CBS CTS VOM CNR CTV AFP ALH ANN VAR NTV' 
+tools/optimize.py analysis/sorg/3 3 'APW NYT CNN ABC NBC PRI VOA MNB XIN ZBN CBS CTS VOM CNR CTV AFP ALH ANN VAR NTV'
+
+# prepare Source News Organization configuration file
+
+echo "falen" > data/config/fextract_sorg.config
+echo "faasciihigh" >> data/config/fextract_sorg.config
+echo "facaps" >> data/config/fextract_sorg.config
+for file in $(ls analysis/sorg/?/*.call)
+do
+	cat $file >> data/config/fextract_sorg.config
+	echo "" >> data/config/fextract_sorg.config
+done
+echo "" >> data/config/fextract_sorg.config
+

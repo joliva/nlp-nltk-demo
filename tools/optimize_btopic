@@ -1,0 +1,17 @@
+# Broad Topic
+tools/optimize.py analysis/btopic/1 1 'BT_1 BT_2 BT_3 BT_4 BT_5 BT_6 BT_7 BT_8 BT_9 BT_10 BT_11 BT_12 BT_13'
+tools/optimize.py analysis/btopic/2 2 'BT_1 BT_2 BT_3 BT_4 BT_5 BT_6 BT_7 BT_8 BT_9 BT_10 BT_11 BT_12 BT_13'
+tools/optimize.py analysis/btopic/3 3 'BT_1 BT_2 BT_3 BT_4 BT_5 BT_6 BT_7 BT_8 BT_9 BT_10 BT_11 BT_12 BT_13'
+
+# prepare Broad Topic configuration file
+
+echo "falen" > data/config/fextract_btopic.config
+echo "faasciihigh" >> data/config/fextract_btopic.config
+echo "facaps" >> data/config/fextract_btopic.config
+for file in $(ls analysis/btopic/?/*.call)
+do
+	cat $file >> data/config/fextract_btopic.config
+	echo "" >> data/config/fextract_btopic.config
+done
+echo "" >> data/config/fextract_btopic.config
+

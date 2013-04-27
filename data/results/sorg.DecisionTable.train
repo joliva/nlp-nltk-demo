@@ -1,0 +1,89 @@
+++ generating and saving model file
+
+Decision Table:
+
+Number of training instances: 97083
+Number of Rules : 10548
+Non matches covered by Majority class.
+Best first search for feature set,
+terminated after 5 non improving subsets.
+Evaluation (for feature selection): CV (leave one out) 
+Feature set: 1,2,3,14,27,35,39,40,43,44,45,46,49,50,51,53,55,57,58,61,62,64
+
+Time taken to build model: 1355.02 seconds
+Time taken to test model on training data: 1.36 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances       66694               68.6979 %
+Incorrectly Classified Instances     30389               31.3021 %
+Kappa statistic                          0.6489
+Mean absolute error                      0.0416
+Root mean squared error                  0.1442
+Relative absolute error                 46.005  %
+Root relative squared error             67.8274 %
+Total Number of Instances            97083     
+
+
+=== Confusion Matrix ===
+
+     a     b     c     d     e     f     g     h     i     j     k     l     m     n     o     p     q     r     s     t   <-- classified as
+  9187   603     0     0     0     6   274     0    82     1     0     0     0     8     0     0     0     0     0     0 |     a = APW
+  1816  2933     1     0     0     1    17     0    20     0     0     0     0     4     0     0     0     0     0     0 |     b = NYT
+     1     0  2547    32     6     0     1    11     2     0     1     0     0    28     0  1689    63   202    41     0 |     c = CNN
+     0     0   410   483     7     0     0    14     0     0     0     0     0     1     0   572    90    73    17     0 |     d = ABC
+     0     0   302    37   529     0     0     3     0     0     0     0     0     0     0   246    50    37    13     0 |     e = NBC
+   456    28   166     0     0  1052   204     0     4     0     0     0     0    20     0     0     0     0     0     0 |     f = PRI
+   866    32    44     0     0    28  1594     0     3     1     0     0     0    80    12     0     0     0     0     0 |     g = VOA
+     0     0   274    29    30     0     0   312     0     0     0     0     0     1     0   209    71    34    15     0 |     h = MNB
+   452     1     0     0     0     0   103     0  7989   773    26   254     6    71    52     8     0     2     0     0 |     i = XIN
+    83     1     0     0     0     0    19     0  2085  5612     4   121     1    56    11    13     0     0     0     0 |     j = ZBN
+    37     0    59     0     0     0    12     0   507    90   657    43     1    17    10     3     0     0     0     0 |     k = CBS
+    16     0   155     0     0     0     4     0  1045   107    43   767     1    18    13    11     0     0     0     0 |     l = CTS
+   100     0   152     0     0     2    28     0   403    50     6     6   966    29    10     1     0     0     0     0 |     m = VOM
+    37     0   133     0     0     2    78     1   341    61     6    34     2  1476    48    27     0     0     0     0 |     n = CNR
+    50     0    60     0     0     0    34     1   245    41     6    13     6    66   938     3     0     0     0     0 |     o = CTV
+     2     0   556    14    19     0     0    19    12     7     0     1     0    34     1 15588   968  1578   114     0 |     p = AFP
+     0     0   246     5    19     0     0    14    11     0     0     1     0     0     0  4266  4171  1734    90     0 |     q = ALH
+     2     0     4     1     5     0     0     3     7     0     0     0     0     0     0   253   236  9047    11     0 |     r = ANN
+     0     0   375    10     1     0     0     1     0     0     0     0     0     0     0   841   126   142   844     0 |     s = VAR
+     0     0   261     2     2     0     0     0     0     0     0     0     0     1     0   436    53    67    33     2 |     t = NTV
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances       59736               61.5309 %
+Incorrectly Classified Instances     37347               38.4691 %
+Kappa statistic                          0.5651
+Mean absolute error                      0.0488
+Root mean squared error                  0.1671
+Relative absolute error                 53.9586 %
+Root relative squared error             78.6118 %
+Total Number of Instances            97083     
+
+
+=== Confusion Matrix ===
+
+     a     b     c     d     e     f     g     h     i     j     k     l     m     n     o     p     q     r     s     t   <-- classified as
+  8835   732     1     0     0    14   294     0    89     5     1     0     0     6     0   184     0     0     0     0 |     a = APW
+  1849  2556     1     0     0     4    20     0    18     1     0     0     0     2     0   341     0     0     0     0 |     b = NYT
+     1     0  2442    71     4     0     1    11     1     1     0     0     0    25     0  1757    66   202    42     0 |     c = CNN
+     0     0   420   403    10     0     0    17     0     0     0     0     0     1     0   622   101    73    20     0 |     d = ABC
+     0     0   314    42   316     0     0     6     0     0     0     0     0     0     0   365   104    53    16     1 |     e = NBC
+   462    31   166     0     0   869   213     0     4     2     0     0     0    15     0   168     0     0     0     0 |     f = PRI
+   879    43    45     0     0    35  1308     0     4     6     0     0     1    66    11   262     0     0     0     0 |     g = VOA
+     0     0   273    31    12     0     0   218     0     0     0     0     0     2     0   299    88    37    15     0 |     h = MNB
+   487     1     0     0     0     0   105     0  6847   999    32   298     7   106    96   752     0     7     0     0 |     i = XIN
+    81     1     0     0     0     0    19     0  2248  4433    34   140     7    68    13   962     0     0     0     0 |     j = ZBN
+    68     1    62     0     0     1    14     0   611   134   249    63     8    38    12   175     0     0     0     0 |     k = CBS
+    23     0   155     0     0     1     4     0  1078   117    24   664     2    20    18    74     0     0     0     0 |     l = CTS
+    99     0   152     0     0     3    28     0   395    56     8     8   563    29    14   398     0     0     0     0 |     m = VOM
+    39     0   137     0     0     3   101     1   358    68     4    39     6  1070    68   352     0     0     0     0 |     n = CNR
+    46     0    60     0     0     1    32     1   261    48     9    15    11    77   621   281     0     0     0     0 |     o = CTV
+     2     0   579    18     6     0     0    19    13     8     0     1     0    36     1 15417  1052  1624   137     0 |     p = AFP
+     0     0   242     7     7     0     0    14    12     0     0     1     0     0     0  4614  3752  1809    98     1 |     q = ALH
+     1     0     5     1     6     0     0     4     6     1     0     1     0     0     0   789   297  8441    17     0 |     r = ANN
+     0     0   379    11     1     0     0     3     0     0     0     0     0     0     0   938   128   149   731     0 |     s = VAR
+     0     0   257     2     3     0     0     0     0     0     0     0     0     1     0   443    51    67    32     1 |     t = NTV
+

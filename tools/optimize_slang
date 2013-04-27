@@ -1,0 +1,18 @@
+# Source Language
+tools/optimize.py analysis/slang/1 1 'ENG ARB MAN'
+tools/optimize.py analysis/slang/2 2 'ENG ARB MAN'
+tools/optimize.py analysis/slang/3 3 'ENG ARB MAN'
+
+# prepare Source Language configuration file
+
+echo "falen" > data/config/fextract_slang.config
+echo "faasciihigh" >> data/config/fextract_slang.config
+echo "facaps" >> data/config/fextract_slang.config
+for file in $(ls analysis/slang/?/*.call)
+do
+	cat $file >> data/config/fextract_slang.config
+	echo "" >> data/config/fextract_slang.config
+done
+echo "" >> data/config/fextract_slang.config
+
+

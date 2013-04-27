@@ -1,0 +1,18 @@
+./runSourceType data/models/sourceType.model ../tdt4 -M -Rtrain > tempfilest
+
+for c in BN NWIRE
+do
+	tools/wfreq $c tempfilest analysis/stype/1/$c
+done
+
+for c in BN NWIRE
+do
+	tools/w2freq $c tempfilest analysis/stype/2/$c
+done
+
+for c in BN NWIRE
+do
+	tools/w3freq $c tempfilest analysis/stype/3/$c
+done
+
+rm tempfilest

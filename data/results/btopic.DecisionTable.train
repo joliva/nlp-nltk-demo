@@ -1,0 +1,75 @@
+++ generating and saving model file
+
+Decision Table:
+
+Number of training instances: 31115
+Number of Rules : 1352
+Non matches covered by Majority class.
+Best first search for feature set,
+terminated after 5 non improving subsets.
+Evaluation (for feature selection): CV (leave one out) 
+Feature set: 4,5,10,12,13,16,17,19,20,21,22,23,25,27,29,30,32,33,34,36,39,40,43
+
+Time taken to build model: 64.06 seconds
+Time taken to test model on training data: 0.2 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances       12446               40      %
+Incorrectly Classified Instances     18669               60      %
+Kappa statistic                          0.2614
+Mean absolute error                      0.1119
+Root mean squared error                  0.2365
+Relative absolute error                 83.0537 %
+Root relative squared error             91.1348 %
+Total Number of Instances            31115     
+
+
+=== Confusion Matrix ===
+
+    a    b    c    d    e    f    g    h    i    j    k    l    m   <-- classified as
+  637    0   11    1   28   53    2    0  198   42 1161   20   52 |    a = BT_1
+    2  202    1    0    0    8    0    0    9    2  281    4    9 |    b = BT_2
+   14    9  359    1   82   27   17    0   24   67 1641   22   34 |    c = BT_3
+    6    0    9   17   49   24    3    0   19   11 1074   11   11 |    d = BT_4
+    8    1   25    2  731   38   22    0    7   33 1283    5   13 |    e = BT_5
+   19    3   17    0  118 1198    5    0   22   23 1673   19   14 |    f = BT_6
+    3    1    6    0   69   13  240    0    8   21  574   12   10 |    g = BT_7
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    h = BT_8
+   14    1   20    3   55   65   12    0  891   20 1552   46   15 |    i = BT_9
+    2    0    3    1    8    5    3    0   10  497  370    6   12 |    j = BT_10
+   80   25   63    1  173  372   40    0   81  148 6282  145   82 |    k = BT_11
+   11   10   27    2   97   67   49    0  130   57 1965  753   32 |    l = BT_12
+   18    9   61    3  137  227   31    0   50  172 2917   58  639 |    m = BT_13
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances       11372               36.5483 %
+Incorrectly Classified Instances     19743               63.4517 %
+Kappa statistic                          0.2156
+Mean absolute error                      0.117 
+Root mean squared error                  0.2483
+Relative absolute error                 86.8445 %
+Root relative squared error             95.661  %
+Total Number of Instances            31115     
+
+
+=== Confusion Matrix ===
+
+    a    b    c    d    e    f    g    h    i    j    k    l    m   <-- classified as
+  492    1   20    5   26   45    4    0  180   44 1319   26   43 |    a = BT_1
+    4  174    4    2    1    6    0    0    8    2  305    3    9 |    b = BT_2
+   17   14  243    6   90   27   18    0   22   69 1718   32   41 |    c = BT_3
+    6    1    8   28   53   24    5    0   18   12 1051   13   15 |    d = BT_4
+   12    1   28    8  641   43   22    0    5   40 1341   11   16 |    e = BT_5
+   22    4   18    4  114  998    6    0   17   31 1844   23   30 |    f = BT_6
+    6    0   14    2   78   13  188    0    7   19  600   19   11 |    g = BT_7
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    h = BT_8
+   43    3   24    3   58   47   14    0  722   26 1686   55   13 |    i = BT_9
+    1    0    2    0    8    6    3    0    9  527  344    6   11 |    j = BT_10
+   92   26   94   13  178  330   44    0   76  170 6228  157   84 |    k = BT_11
+   18   12   29    5   87   63   49    0  118   70 2090  630   29 |    l = BT_12
+   38    8   76    5  133  213   33    0   52  183 3021   59  501 |    m = BT_13
+

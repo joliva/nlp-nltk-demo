@@ -1,0 +1,665 @@
+++ generating and saving model file
+
+Naive Bayes Classifier
+
+Class BT_1: Prior probability = 0.07
+
+text_length:  Normal Distribution. Mean = 3152.815 StandardDev = 3267.1721 WeightSum = 2205 Precision = 7.2259807073954985
+asciihigh_cnt:  Normal Distribution. Mean = 19.103 StandardDev = 47.5287 WeightSum = 2205 Precision = 2.847826086956522
+caps_cnt:  Normal Distribution. Mean = 56.3824 StandardDev = 93.6048 WeightSum = 2205 Precision = 3.2880184331797233
+BT_11_cnt:  Normal Distribution. Mean = 0.6095 StandardDev = 3.1243 WeightSum = 2205 Precision = 1.103448275862069
+BT_101_cnt:  Normal Distribution. Mean = 1.4333 StandardDev = 3.7064 WeightSum = 2205 Precision = 1.3604651162790697
+BT_111_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 2205 Precision = 0.01
+BT_121_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 2205 Precision = 0.01
+BT_131_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 2205 Precision = 0.01
+BT_21_cnt:  Normal Distribution. Mean = 0.5146 StandardDev = 1.72 WeightSum = 2205 Precision = 2.4615384615384617
+BT_31_cnt:  Normal Distribution. Mean = 0.0042 StandardDev = 0.2197 WeightSum = 2205 Precision = 1.3181818181818181
+BT_41_cnt:  Normal Distribution. Mean = 0.0175 StandardDev = 6.4375 WeightSum = 2205 Precision = 38.625
+BT_51_cnt:  Normal Distribution. Mean = 0.0816 StandardDev = 1.1435 WeightSum = 2205 Precision = 3.0
+BT_61_cnt:  Normal Distribution. Mean = 0.0784 StandardDev = 0.6667 WeightSum = 2205 Precision = 1.2
+BT_71_cnt:  Normal Distribution. Mean = 0.5363 StandardDev = 1.0322 WeightSum = 2205 Precision = 1.2702702702702702
+BT_81_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 2205 Precision = 0.01
+BT_91_cnt:  Normal Distribution. Mean = 0.2429 StandardDev = 2.4865 WeightSum = 2205 Precision = 2.2222222222222223
+BT_12_cnt:  Normal Distribution. Mean = 0.7603 StandardDev = 5.6073 WeightSum = 2205 Precision = 6.448275862068965
+BT_102_cnt:  Normal Distribution. Mean = 0.1745 StandardDev = 0.8825 WeightSum = 2205 Precision = 1.135135135135135
+BT_112_cnt:  Normal Distribution. Mean = 0.0014 StandardDev = 0.5 WeightSum = 2205 Precision = 3.0
+BT_122_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.3725 WeightSum = 2205 Precision = 2.235294117647059
+BT_132_cnt:  Normal Distribution. Mean = 0.0123 StandardDev = 0.1889 WeightSum = 2205 Precision = 1.1333333333333333
+BT_22_cnt:  Normal Distribution. Mean = 0.0105 StandardDev = 0.3851 WeightSum = 2205 Precision = 2.310344827586207
+BT_32_cnt:  Normal Distribution. Mean = 0.0234 StandardDev = 0.4648 WeightSum = 2205 Precision = 1.3225806451612903
+BT_42_cnt:  Normal Distribution. Mean = 0.0176 StandardDev = 6.4545 WeightSum = 2205 Precision = 38.72727272727273
+BT_52_cnt:  Normal Distribution. Mean = 0.0437 StandardDev = 1.1017 WeightSum = 2205 Precision = 1.5526315789473684
+BT_62_cnt:  Normal Distribution. Mean = 0.068 StandardDev = 0.3563 WeightSum = 2205 Precision = 1.5294117647058822
+BT_72_cnt:  Normal Distribution. Mean = 0.0269 StandardDev = 0.3206 WeightSum = 2205 Precision = 1.4814814814814814
+BT_82_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 2205 Precision = 0.01
+BT_92_cnt:  Normal Distribution. Mean = 0.3888 StandardDev = 2.1686 WeightSum = 2205 Precision = 1.5789473684210527
+BT_13_cnt:  Normal Distribution. Mean = 0.6021 StandardDev = 2.2566 WeightSum = 2205 Precision = 1.826086956521739
+BT_103_cnt:  Normal Distribution. Mean = 0.2222 StandardDev = 0.7208 WeightSum = 2205 Precision = 1.4
+BT_113_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.375 WeightSum = 2205 Precision = 2.25
+BT_123_cnt:  Normal Distribution. Mean = 0.0198 StandardDev = 0.2798 WeightSum = 2205 Precision = 1.6785714285714286
+BT_133_cnt:  Normal Distribution. Mean = 0.0326 StandardDev = 0.2444 WeightSum = 2205 Precision = 1.4666666666666666
+BT_23_cnt:  Normal Distribution. Mean = 0.1817 StandardDev = 0.5654 WeightSum = 2205 Precision = 1.6153846153846154
+BT_33_cnt:  Normal Distribution. Mean = 0.0736 StandardDev = 0.5061 WeightSum = 2205 Precision = 1.6896551724137931
+BT_43_cnt:  Normal Distribution. Mean = 0 StandardDev = 4.3704 WeightSum = 2205 Precision = 26.22222222222222
+BT_53_cnt:  Normal Distribution. Mean = 0.0814 StandardDev = 0.5997 WeightSum = 2205 Precision = 1.6774193548387097
+BT_63_cnt:  Normal Distribution. Mean = 0.0571 StandardDev = 0.4754 WeightSum = 2205 Precision = 1.2
+BT_73_cnt:  Normal Distribution. Mean = 0.0007 StandardDev = 0.2456 WeightSum = 2205 Precision = 1.4736842105263157
+BT_83_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 2205 Precision = 0.01
+BT_93_cnt:  Normal Distribution. Mean = 0.5695 StandardDev = 1.8845 WeightSum = 2205 Precision = 1.88
+
+
+Class BT_2: Prior probability = 0.02
+
+text_length:  Normal Distribution. Mean = 2647.9592 StandardDev = 2296.1558 WeightSum = 518 Precision = 7.2259807073954985
+asciihigh_cnt:  Normal Distribution. Mean = 13.1231 StandardDev = 41.3749 WeightSum = 518 Precision = 2.847826086956522
+caps_cnt:  Normal Distribution. Mean = 55.8582 StandardDev = 86.0869 WeightSum = 518 Precision = 3.2880184331797233
+BT_11_cnt:  Normal Distribution. Mean = 0.0043 StandardDev = 0.1839 WeightSum = 518 Precision = 1.103448275862069
+BT_101_cnt:  Normal Distribution. Mean = 0.3572 StandardDev = 1.1839 WeightSum = 518 Precision = 1.3604651162790697
+BT_111_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 518 Precision = 0.01
+BT_121_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 518 Precision = 0.01
+BT_131_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 518 Precision = 0.01
+BT_21_cnt:  Normal Distribution. Mean = 11.8515 StandardDev = 18.6031 WeightSum = 518 Precision = 2.4615384615384617
+BT_31_cnt:  Normal Distribution. Mean = 0.0051 StandardDev = 0.2197 WeightSum = 518 Precision = 1.3181818181818181
+BT_41_cnt:  Normal Distribution. Mean = 0.7457 StandardDev = 6.4375 WeightSum = 518 Precision = 38.625
+BT_51_cnt:  Normal Distribution. Mean = 0.029 StandardDev = 0.5 WeightSum = 518 Precision = 3.0
+BT_61_cnt:  Normal Distribution. Mean = 0.0371 StandardDev = 0.2206 WeightSum = 518 Precision = 1.2
+BT_71_cnt:  Normal Distribution. Mean = 0.4855 StandardDev = 0.8866 WeightSum = 518 Precision = 1.2702702702702702
+BT_81_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 518 Precision = 0.01
+BT_91_cnt:  Normal Distribution. Mean = 0.0043 StandardDev = 0.3704 WeightSum = 518 Precision = 2.2222222222222223
+BT_12_cnt:  Normal Distribution. Mean = 0 StandardDev = 1.0747 WeightSum = 518 Precision = 6.448275862068965
+BT_102_cnt:  Normal Distribution. Mean = 0.0263 StandardDev = 0.2626 WeightSum = 518 Precision = 1.135135135135135
+BT_112_cnt:  Normal Distribution. Mean = 0.0058 StandardDev = 0.5 WeightSum = 518 Precision = 3.0
+BT_122_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.3725 WeightSum = 518 Precision = 2.235294117647059
+BT_132_cnt:  Normal Distribution. Mean = 0.0022 StandardDev = 0.1889 WeightSum = 518 Precision = 1.1333333333333333
+BT_22_cnt:  Normal Distribution. Mean = 3.6038 StandardDev = 6.8304 WeightSum = 518 Precision = 2.310344827586207
+BT_32_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.2204 WeightSum = 518 Precision = 1.3225806451612903
+BT_42_cnt:  Normal Distribution. Mean = 0 StandardDev = 6.4545 WeightSum = 518 Precision = 38.72727272727273
+BT_52_cnt:  Normal Distribution. Mean = 0.003 StandardDev = 0.2588 WeightSum = 518 Precision = 1.5526315789473684
+BT_62_cnt:  Normal Distribution. Mean = 0.0797 StandardDev = 0.3777 WeightSum = 518 Precision = 1.5294117647058822
+BT_72_cnt:  Normal Distribution. Mean = 0.02 StandardDev = 0.2469 WeightSum = 518 Precision = 1.4814814814814814
+BT_82_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 518 Precision = 0.01
+BT_92_cnt:  Normal Distribution. Mean = 0.0305 StandardDev = 0.2632 WeightSum = 518 Precision = 1.5789473684210527
+BT_13_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.3043 WeightSum = 518 Precision = 1.826086956521739
+BT_103_cnt:  Normal Distribution. Mean = 0.0568 StandardDev = 0.2895 WeightSum = 518 Precision = 1.4
+BT_113_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.375 WeightSum = 518 Precision = 2.25
+BT_123_cnt:  Normal Distribution. Mean = 0.0227 StandardDev = 0.2798 WeightSum = 518 Precision = 1.6785714285714286
+BT_133_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.2444 WeightSum = 518 Precision = 1.4666666666666666
+BT_23_cnt:  Normal Distribution. Mean = 1.4407 StandardDev = 2.1078 WeightSum = 518 Precision = 1.6153846153846154
+BT_33_cnt:  Normal Distribution. Mean = 0.0065 StandardDev = 0.2816 WeightSum = 518 Precision = 1.6896551724137931
+BT_43_cnt:  Normal Distribution. Mean = 0 StandardDev = 4.3704 WeightSum = 518 Precision = 26.22222222222222
+BT_53_cnt:  Normal Distribution. Mean = 0.081 StandardDev = 0.3595 WeightSum = 518 Precision = 1.6774193548387097
+BT_63_cnt:  Normal Distribution. Mean = 0.0324 StandardDev = 0.2452 WeightSum = 518 Precision = 1.2
+BT_73_cnt:  Normal Distribution. Mean = 0.0028 StandardDev = 0.2456 WeightSum = 518 Precision = 1.4736842105263157
+BT_83_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 518 Precision = 0.01
+BT_93_cnt:  Normal Distribution. Mean = 0.1996 StandardDev = 0.6769 WeightSum = 518 Precision = 1.88
+
+
+Class BT_3: Prior probability = 0.07
+
+text_length:  Normal Distribution. Mean = 2708.217 StandardDev = 2311.5489 WeightSum = 2297 Precision = 7.2259807073954985
+asciihigh_cnt:  Normal Distribution. Mean = 26.776 StandardDev = 36.737 WeightSum = 2297 Precision = 2.847826086956522
+caps_cnt:  Normal Distribution. Mean = 46.7566 StandardDev = 46.482 WeightSum = 2297 Precision = 3.2880184331797233
+BT_11_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.1839 WeightSum = 2297 Precision = 1.103448275862069
+BT_101_cnt:  Normal Distribution. Mean = 1.2989 StandardDev = 5.0329 WeightSum = 2297 Precision = 1.3604651162790697
+BT_111_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 2297 Precision = 0.01
+BT_121_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 2297 Precision = 0.01
+BT_131_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 2297 Precision = 0.01
+BT_21_cnt:  Normal Distribution. Mean = 0.2411 StandardDev = 1.7725 WeightSum = 2297 Precision = 2.4615384615384617
+BT_31_cnt:  Normal Distribution. Mean = 0.2841 StandardDev = 2.0272 WeightSum = 2297 Precision = 1.3181818181818181
+BT_41_cnt:  Normal Distribution. Mean = 0.1345 StandardDev = 6.4375 WeightSum = 2297 Precision = 38.625
+BT_51_cnt:  Normal Distribution. Mean = 0.1985 StandardDev = 1.0877 WeightSum = 2297 Precision = 3.0
+BT_61_cnt:  Normal Distribution. Mean = 0.0371 StandardDev = 0.2463 WeightSum = 2297 Precision = 1.2
+BT_71_cnt:  Normal Distribution. Mean = 0.3512 StandardDev = 1.2092 WeightSum = 2297 Precision = 1.2702702702702702
+BT_81_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 2297 Precision = 0.01
+BT_91_cnt:  Normal Distribution. Mean = 0.0019 StandardDev = 0.3704 WeightSum = 2297 Precision = 2.2222222222222223
+BT_12_cnt:  Normal Distribution. Mean = 0 StandardDev = 1.0747 WeightSum = 2297 Precision = 6.448275862068965
+BT_102_cnt:  Normal Distribution. Mean = 0.2604 StandardDev = 1.425 WeightSum = 2297 Precision = 1.135135135135135
+BT_112_cnt:  Normal Distribution. Mean = 0.0013 StandardDev = 0.5 WeightSum = 2297 Precision = 3.0
+BT_122_cnt:  Normal Distribution. Mean = 0.0039 StandardDev = 0.3725 WeightSum = 2297 Precision = 2.235294117647059
+BT_132_cnt:  Normal Distribution. Mean = 0.0054 StandardDev = 0.1889 WeightSum = 2297 Precision = 1.1333333333333333
+BT_22_cnt:  Normal Distribution. Mean = 0.0603 StandardDev = 0.6439 WeightSum = 2297 Precision = 2.310344827586207
+BT_32_cnt:  Normal Distribution. Mean = 0.4929 StandardDev = 2.7644 WeightSum = 2297 Precision = 1.3225806451612903
+BT_42_cnt:  Normal Distribution. Mean = 0 StandardDev = 6.4545 WeightSum = 2297 Precision = 38.72727272727273
+BT_52_cnt:  Normal Distribution. Mean = 0.048 StandardDev = 0.5252 WeightSum = 2297 Precision = 1.5526315789473684
+BT_62_cnt:  Normal Distribution. Mean = 0.0186 StandardDev = 0.2549 WeightSum = 2297 Precision = 1.5294117647058822
+BT_72_cnt:  Normal Distribution. Mean = 0.0748 StandardDev = 0.6731 WeightSum = 2297 Precision = 1.4814814814814814
+BT_82_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 2297 Precision = 0.01
+BT_92_cnt:  Normal Distribution. Mean = 0.0158 StandardDev = 0.2632 WeightSum = 2297 Precision = 1.5789473684210527
+BT_13_cnt:  Normal Distribution. Mean = 0.0008 StandardDev = 0.3043 WeightSum = 2297 Precision = 1.826086956521739
+BT_103_cnt:  Normal Distribution. Mean = 0.1426 StandardDev = 0.6876 WeightSum = 2297 Precision = 1.4
+BT_113_cnt:  Normal Distribution. Mean = 0.002 StandardDev = 0.375 WeightSum = 2297 Precision = 2.25
+BT_123_cnt:  Normal Distribution. Mean = 0.0285 StandardDev = 0.2937 WeightSum = 2297 Precision = 1.6785714285714286
+BT_133_cnt:  Normal Distribution. Mean = 0.0166 StandardDev = 0.2444 WeightSum = 2297 Precision = 1.4666666666666666
+BT_23_cnt:  Normal Distribution. Mean = 0.0816 StandardDev = 0.3815 WeightSum = 2297 Precision = 1.6153846153846154
+BT_33_cnt:  Normal Distribution. Mean = 0.7091 StandardDev = 2.8273 WeightSum = 2297 Precision = 1.6896551724137931
+BT_43_cnt:  Normal Distribution. Mean = 0 StandardDev = 4.3704 WeightSum = 2297 Precision = 26.22222222222222
+BT_53_cnt:  Normal Distribution. Mean = 0.0438 StandardDev = 0.4177 WeightSum = 2297 Precision = 1.6774193548387097
+BT_63_cnt:  Normal Distribution. Mean = 0.0078 StandardDev = 0.2 WeightSum = 2297 Precision = 1.2
+BT_73_cnt:  Normal Distribution. Mean = 0.0282 StandardDev = 0.3627 WeightSum = 2297 Precision = 1.4736842105263157
+BT_83_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 2297 Precision = 0.01
+BT_93_cnt:  Normal Distribution. Mean = 0.0327 StandardDev = 0.3133 WeightSum = 2297 Precision = 1.88
+
+
+Class BT_4: Prior probability = 0.04
+
+text_length:  Normal Distribution. Mean = 2420.0008 StandardDev = 2556.4379 WeightSum = 1234 Precision = 7.2259807073954985
+asciihigh_cnt:  Normal Distribution. Mean = 13.6114 StandardDev = 29.8205 WeightSum = 1234 Precision = 2.847826086956522
+caps_cnt:  Normal Distribution. Mean = 42.2726 StandardDev = 68.6598 WeightSum = 1234 Precision = 3.2880184331797233
+BT_11_cnt:  Normal Distribution. Mean = 0.0009 StandardDev = 0.1839 WeightSum = 1234 Precision = 1.103448275862069
+BT_101_cnt:  Normal Distribution. Mean = 0.6262 StandardDev = 2.329 WeightSum = 1234 Precision = 1.3604651162790697
+BT_111_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 1234 Precision = 0.01
+BT_121_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 1234 Precision = 0.01
+BT_131_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 1234 Precision = 0.01
+BT_21_cnt:  Normal Distribution. Mean = 0.0898 StandardDev = 0.7193 WeightSum = 1234 Precision = 2.4615384615384617
+BT_31_cnt:  Normal Distribution. Mean = 0.0096 StandardDev = 0.2197 WeightSum = 1234 Precision = 1.3181818181818181
+BT_41_cnt:  Normal Distribution. Mean = 3.3805 StandardDev = 53.399 WeightSum = 1234 Precision = 38.625
+BT_51_cnt:  Normal Distribution. Mean = 0.1118 StandardDev = 0.5683 WeightSum = 1234 Precision = 3.0
+BT_61_cnt:  Normal Distribution. Mean = 0.0301 StandardDev = 0.2372 WeightSum = 1234 Precision = 1.2
+BT_71_cnt:  Normal Distribution. Mean = 0.42 StandardDev = 1.0807 WeightSum = 1234 Precision = 1.2702702702702702
+BT_81_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 1234 Precision = 0.01
+BT_91_cnt:  Normal Distribution. Mean = 0.0198 StandardDev = 0.3704 WeightSum = 1234 Precision = 2.2222222222222223
+BT_12_cnt:  Normal Distribution. Mean = 0.0052 StandardDev = 1.0747 WeightSum = 1234 Precision = 6.448275862068965
+BT_102_cnt:  Normal Distribution. Mean = 0.0984 StandardDev = 0.5127 WeightSum = 1234 Precision = 1.135135135135135
+BT_112_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.5 WeightSum = 1234 Precision = 3.0
+BT_122_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.3725 WeightSum = 1234 Precision = 2.235294117647059
+BT_132_cnt:  Normal Distribution. Mean = 0.0009 StandardDev = 0.1889 WeightSum = 1234 Precision = 1.1333333333333333
+BT_22_cnt:  Normal Distribution. Mean = 0.0094 StandardDev = 0.3851 WeightSum = 1234 Precision = 2.310344827586207
+BT_32_cnt:  Normal Distribution. Mean = 0.0086 StandardDev = 0.2204 WeightSum = 1234 Precision = 1.3225806451612903
+BT_42_cnt:  Normal Distribution. Mean = 0.7532 StandardDev = 24.2923 WeightSum = 1234 Precision = 38.72727272727273
+BT_52_cnt:  Normal Distribution. Mean = 0.0516 StandardDev = 0.4042 WeightSum = 1234 Precision = 1.5526315789473684
+BT_62_cnt:  Normal Distribution. Mean = 0.0248 StandardDev = 0.2549 WeightSum = 1234 Precision = 1.5294117647058822
+BT_72_cnt:  Normal Distribution. Mean = 0.0396 StandardDev = 0.3429 WeightSum = 1234 Precision = 1.4814814814814814
+BT_82_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 1234 Precision = 0.01
+BT_92_cnt:  Normal Distribution. Mean = 0.0102 StandardDev = 0.2632 WeightSum = 1234 Precision = 1.5789473684210527
+BT_13_cnt:  Normal Distribution. Mean = 0.003 StandardDev = 0.3043 WeightSum = 1234 Precision = 1.826086956521739
+BT_103_cnt:  Normal Distribution. Mean = 0.11 StandardDev = 0.5822 WeightSum = 1234 Precision = 1.4
+BT_113_cnt:  Normal Distribution. Mean = 0.0018 StandardDev = 0.375 WeightSum = 1234 Precision = 2.25
+BT_123_cnt:  Normal Distribution. Mean = 0.0177 StandardDev = 0.2798 WeightSum = 1234 Precision = 1.6785714285714286
+BT_133_cnt:  Normal Distribution. Mean = 0.0048 StandardDev = 0.2444 WeightSum = 1234 Precision = 1.4666666666666666
+BT_23_cnt:  Normal Distribution. Mean = 0.0602 StandardDev = 0.3261 WeightSum = 1234 Precision = 1.6153846153846154
+BT_33_cnt:  Normal Distribution. Mean = 0.0329 StandardDev = 0.2816 WeightSum = 1234 Precision = 1.6896551724137931
+BT_43_cnt:  Normal Distribution. Mean = 0.1912 StandardDev = 6.7155 WeightSum = 1234 Precision = 26.22222222222222
+BT_53_cnt:  Normal Distribution. Mean = 0.1522 StandardDev = 0.7668 WeightSum = 1234 Precision = 1.6774193548387097
+BT_63_cnt:  Normal Distribution. Mean = 0.0253 StandardDev = 0.2034 WeightSum = 1234 Precision = 1.2
+BT_73_cnt:  Normal Distribution. Mean = 0.0072 StandardDev = 0.2456 WeightSum = 1234 Precision = 1.4736842105263157
+BT_83_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 1234 Precision = 0.01
+BT_93_cnt:  Normal Distribution. Mean = 0.0411 StandardDev = 0.3133 WeightSum = 1234 Precision = 1.88
+
+
+Class BT_5: Prior probability = 0.07
+
+text_length:  Normal Distribution. Mean = 2260.3988 StandardDev = 1992.5296 WeightSum = 2168 Precision = 7.2259807073954985
+asciihigh_cnt:  Normal Distribution. Mean = 20.543 StandardDev = 33.6267 WeightSum = 2168 Precision = 2.847826086956522
+caps_cnt:  Normal Distribution. Mean = 35.096 StandardDev = 43.0339 WeightSum = 2168 Precision = 3.2880184331797233
+BT_11_cnt:  Normal Distribution. Mean = 0.0025 StandardDev = 0.1839 WeightSum = 2168 Precision = 1.103448275862069
+BT_101_cnt:  Normal Distribution. Mean = 0.8007 StandardDev = 2.936 WeightSum = 2168 Precision = 1.3604651162790697
+BT_111_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 2168 Precision = 0.01
+BT_121_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 2168 Precision = 0.01
+BT_131_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 2168 Precision = 0.01
+BT_21_cnt:  Normal Distribution. Mean = 0.059 StandardDev = 0.5359 WeightSum = 2168 Precision = 2.4615384615384617
+BT_31_cnt:  Normal Distribution. Mean = 0.0043 StandardDev = 0.2197 WeightSum = 2168 Precision = 1.3181818181818181
+BT_41_cnt:  Normal Distribution. Mean = 0.0891 StandardDev = 6.4375 WeightSum = 2168 Precision = 38.625
+BT_51_cnt:  Normal Distribution. Mean = 2.1863 StandardDev = 5.7356 WeightSum = 2168 Precision = 3.0
+BT_61_cnt:  Normal Distribution. Mean = 0.0421 StandardDev = 0.3354 WeightSum = 2168 Precision = 1.2
+BT_71_cnt:  Normal Distribution. Mean = 0.3773 StandardDev = 1.2534 WeightSum = 2168 Precision = 1.2702702702702702
+BT_81_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 2168 Precision = 0.01
+BT_91_cnt:  Normal Distribution. Mean = 0.0072 StandardDev = 0.3704 WeightSum = 2168 Precision = 2.2222222222222223
+BT_12_cnt:  Normal Distribution. Mean = 0.003 StandardDev = 1.0747 WeightSum = 2168 Precision = 6.448275862068965
+BT_102_cnt:  Normal Distribution. Mean = 0.1497 StandardDev = 0.8013 WeightSum = 2168 Precision = 1.135135135135135
+BT_112_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.5 WeightSum = 2168 Precision = 3.0
+BT_122_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.3725 WeightSum = 2168 Precision = 2.235294117647059
+BT_132_cnt:  Normal Distribution. Mean = 0.0031 StandardDev = 0.1889 WeightSum = 2168 Precision = 1.1333333333333333
+BT_22_cnt:  Normal Distribution. Mean = 0.0064 StandardDev = 0.3851 WeightSum = 2168 Precision = 2.310344827586207
+BT_32_cnt:  Normal Distribution. Mean = 0.0159 StandardDev = 0.2371 WeightSum = 2168 Precision = 1.3225806451612903
+BT_42_cnt:  Normal Distribution. Mean = 0 StandardDev = 6.4545 WeightSum = 2168 Precision = 38.72727272727273
+BT_52_cnt:  Normal Distribution. Mean = 1.6056 StandardDev = 4.819 WeightSum = 2168 Precision = 1.5526315789473684
+BT_62_cnt:  Normal Distribution. Mean = 0.048 StandardDev = 0.2861 WeightSum = 2168 Precision = 1.5294117647058822
+BT_72_cnt:  Normal Distribution. Mean = 0.0718 StandardDev = 0.4544 WeightSum = 2168 Precision = 1.4814814814814814
+BT_82_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 2168 Precision = 0.01
+BT_92_cnt:  Normal Distribution. Mean = 0.0007 StandardDev = 0.2632 WeightSum = 2168 Precision = 1.5789473684210527
+BT_13_cnt:  Normal Distribution. Mean = 0.0017 StandardDev = 0.3043 WeightSum = 2168 Precision = 1.826086956521739
+BT_103_cnt:  Normal Distribution. Mean = 0.1027 StandardDev = 0.5539 WeightSum = 2168 Precision = 1.4
+BT_113_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.375 WeightSum = 2168 Precision = 2.25
+BT_123_cnt:  Normal Distribution. Mean = 0.0077 StandardDev = 0.2798 WeightSum = 2168 Precision = 1.6785714285714286
+BT_133_cnt:  Normal Distribution. Mean = 0.0041 StandardDev = 0.2444 WeightSum = 2168 Precision = 1.4666666666666666
+BT_23_cnt:  Normal Distribution. Mean = 0.0268 StandardDev = 0.2692 WeightSum = 2168 Precision = 1.6153846153846154
+BT_33_cnt:  Normal Distribution. Mean = 0.0553 StandardDev = 0.4542 WeightSum = 2168 Precision = 1.6896551724137931
+BT_43_cnt:  Normal Distribution. Mean = 0 StandardDev = 4.3704 WeightSum = 2168 Precision = 26.22222222222222
+BT_53_cnt:  Normal Distribution. Mean = 0.9896 StandardDev = 3.4273 WeightSum = 2168 Precision = 1.6774193548387097
+BT_63_cnt:  Normal Distribution. Mean = 0.0266 StandardDev = 0.2319 WeightSum = 2168 Precision = 1.2
+BT_73_cnt:  Normal Distribution. Mean = 0.0455 StandardDev = 0.5861 WeightSum = 2168 Precision = 1.4736842105263157
+BT_83_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 2168 Precision = 0.01
+BT_93_cnt:  Normal Distribution. Mean = 0.0191 StandardDev = 0.3133 WeightSum = 2168 Precision = 1.88
+
+
+Class BT_6: Prior probability = 0.1 
+
+text_length:  Normal Distribution. Mean = 2376.6114 StandardDev = 2136.6812 WeightSum = 3111 Precision = 7.2259807073954985
+asciihigh_cnt:  Normal Distribution. Mean = 10.5565 StandardDev = 27.8264 WeightSum = 3111 Precision = 2.847826086956522
+caps_cnt:  Normal Distribution. Mean = 40.7467 StandardDev = 57.6916 WeightSum = 3111 Precision = 3.2880184331797233
+BT_11_cnt:  Normal Distribution. Mean = 0.0004 StandardDev = 0.1839 WeightSum = 3111 Precision = 1.103448275862069
+BT_101_cnt:  Normal Distribution. Mean = 0.5344 StandardDev = 2.3426 WeightSum = 3111 Precision = 1.3604651162790697
+BT_111_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 3111 Precision = 0.01
+BT_121_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 3111 Precision = 0.01
+BT_131_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 3111 Precision = 0.01
+BT_21_cnt:  Normal Distribution. Mean = 0.106 StandardDev = 0.6368 WeightSum = 3111 Precision = 2.4615384615384617
+BT_31_cnt:  Normal Distribution. Mean = 0.0089 StandardDev = 0.2197 WeightSum = 3111 Precision = 1.3181818181818181
+BT_41_cnt:  Normal Distribution. Mean = 0.0497 StandardDev = 6.4375 WeightSum = 3111 Precision = 38.625
+BT_51_cnt:  Normal Distribution. Mean = 0.1591 StandardDev = 1.0461 WeightSum = 3111 Precision = 3.0
+BT_61_cnt:  Normal Distribution. Mean = 1.6656 StandardDev = 4.5978 WeightSum = 3111 Precision = 1.2
+BT_71_cnt:  Normal Distribution. Mean = 0.4916 StandardDev = 1.1742 WeightSum = 3111 Precision = 1.2702702702702702
+BT_81_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 3111 Precision = 0.01
+BT_91_cnt:  Normal Distribution. Mean = 0.0064 StandardDev = 0.3704 WeightSum = 3111 Precision = 2.2222222222222223
+BT_12_cnt:  Normal Distribution. Mean = 0 StandardDev = 1.0747 WeightSum = 3111 Precision = 6.448275862068965
+BT_102_cnt:  Normal Distribution. Mean = 0.1346 StandardDev = 0.7233 WeightSum = 3111 Precision = 1.135135135135135
+BT_112_cnt:  Normal Distribution. Mean = 0.0019 StandardDev = 0.5 WeightSum = 3111 Precision = 3.0
+BT_122_cnt:  Normal Distribution. Mean = 0.0014 StandardDev = 0.3725 WeightSum = 3111 Precision = 2.235294117647059
+BT_132_cnt:  Normal Distribution. Mean = 0.0106 StandardDev = 0.1998 WeightSum = 3111 Precision = 1.1333333333333333
+BT_22_cnt:  Normal Distribution. Mean = 0.0104 StandardDev = 0.3851 WeightSum = 3111 Precision = 2.310344827586207
+BT_32_cnt:  Normal Distribution. Mean = 0.0094 StandardDev = 0.2204 WeightSum = 3111 Precision = 1.3225806451612903
+BT_42_cnt:  Normal Distribution. Mean = 0 StandardDev = 6.4545 WeightSum = 3111 Precision = 38.72727272727273
+BT_52_cnt:  Normal Distribution. Mean = 0.0988 StandardDev = 1.0391 WeightSum = 3111 Precision = 1.5526315789473684
+BT_62_cnt:  Normal Distribution. Mean = 0.7689 StandardDev = 1.8898 WeightSum = 3111 Precision = 1.5294117647058822
+BT_72_cnt:  Normal Distribution. Mean = 0.0505 StandardDev = 0.6152 WeightSum = 3111 Precision = 1.4814814814814814
+BT_82_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 3111 Precision = 0.01
+BT_92_cnt:  Normal Distribution. Mean = 0.0122 StandardDev = 0.2632 WeightSum = 3111 Precision = 1.5789473684210527
+BT_13_cnt:  Normal Distribution. Mean = 0.0053 StandardDev = 0.3043 WeightSum = 3111 Precision = 1.826086956521739
+BT_103_cnt:  Normal Distribution. Mean = 0.0693 StandardDev = 0.3924 WeightSum = 3111 Precision = 1.4
+BT_113_cnt:  Normal Distribution. Mean = 0.0007 StandardDev = 0.375 WeightSum = 3111 Precision = 2.25
+BT_123_cnt:  Normal Distribution. Mean = 0.0194 StandardDev = 0.2798 WeightSum = 3111 Precision = 1.6785714285714286
+BT_133_cnt:  Normal Distribution. Mean = 0.0075 StandardDev = 0.2444 WeightSum = 3111 Precision = 1.4666666666666666
+BT_23_cnt:  Normal Distribution. Mean = 0.0924 StandardDev = 0.3884 WeightSum = 3111 Precision = 1.6153846153846154
+BT_33_cnt:  Normal Distribution. Mean = 0.0244 StandardDev = 0.2816 WeightSum = 3111 Precision = 1.6896551724137931
+BT_43_cnt:  Normal Distribution. Mean = 0 StandardDev = 4.3704 WeightSum = 3111 Precision = 26.22222222222222
+BT_53_cnt:  Normal Distribution. Mean = 0.1095 StandardDev = 0.7166 WeightSum = 3111 Precision = 1.6774193548387097
+BT_63_cnt:  Normal Distribution. Mean = 0.7583 StandardDev = 2.0221 WeightSum = 3111 Precision = 1.2
+BT_73_cnt:  Normal Distribution. Mean = 0.0081 StandardDev = 0.2456 WeightSum = 3111 Precision = 1.4736842105263157
+BT_83_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 3111 Precision = 0.01
+BT_93_cnt:  Normal Distribution. Mean = 0.0761 StandardDev = 0.4583 WeightSum = 3111 Precision = 1.88
+
+
+Class BT_7: Prior probability = 0.03
+
+text_length:  Normal Distribution. Mean = 2586.8256 StandardDev = 2616.9167 WeightSum = 957 Precision = 7.2259807073954985
+asciihigh_cnt:  Normal Distribution. Mean = 16.468 StandardDev = 33.2507 WeightSum = 957 Precision = 2.847826086956522
+caps_cnt:  Normal Distribution. Mean = 50.5675 StandardDev = 82.5297 WeightSum = 957 Precision = 3.2880184331797233
+BT_11_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.1839 WeightSum = 957 Precision = 1.103448275862069
+BT_101_cnt:  Normal Distribution. Mean = 0.961 StandardDev = 3.1963 WeightSum = 957 Precision = 1.3604651162790697
+BT_111_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 957 Precision = 0.01
+BT_121_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 957 Precision = 0.01
+BT_131_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 957 Precision = 0.01
+BT_21_cnt:  Normal Distribution. Mean = 0.1235 StandardDev = 0.7187 WeightSum = 957 Precision = 2.4615384615384617
+BT_31_cnt:  Normal Distribution. Mean = 0.0014 StandardDev = 0.2197 WeightSum = 957 Precision = 1.3181818181818181
+BT_41_cnt:  Normal Distribution. Mean = 0.0807 StandardDev = 6.4375 WeightSum = 957 Precision = 38.625
+BT_51_cnt:  Normal Distribution. Mean = 0.3856 StandardDev = 1.1685 WeightSum = 957 Precision = 3.0
+BT_61_cnt:  Normal Distribution. Mean = 0.0339 StandardDev = 0.2399 WeightSum = 957 Precision = 1.2
+BT_71_cnt:  Normal Distribution. Mean = 3.4431 StandardDev = 6.8221 WeightSum = 957 Precision = 1.2702702702702702
+BT_81_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 957 Precision = 0.01
+BT_91_cnt:  Normal Distribution. Mean = 0.0325 StandardDev = 0.6254 WeightSum = 957 Precision = 2.2222222222222223
+BT_12_cnt:  Normal Distribution. Mean = 0 StandardDev = 1.0747 WeightSum = 957 Precision = 6.448275862068965
+BT_102_cnt:  Normal Distribution. Mean = 0.1139 StandardDev = 0.5829 WeightSum = 957 Precision = 1.135135135135135
+BT_112_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.5 WeightSum = 957 Precision = 3.0
+BT_122_cnt:  Normal Distribution. Mean = 0.0023 StandardDev = 0.3725 WeightSum = 957 Precision = 2.235294117647059
+BT_132_cnt:  Normal Distribution. Mean = 0.0047 StandardDev = 0.1889 WeightSum = 957 Precision = 1.1333333333333333
+BT_22_cnt:  Normal Distribution. Mean = 0.0193 StandardDev = 0.3851 WeightSum = 957 Precision = 2.310344827586207
+BT_32_cnt:  Normal Distribution. Mean = 0.0124 StandardDev = 0.2377 WeightSum = 957 Precision = 1.3225806451612903
+BT_42_cnt:  Normal Distribution. Mean = 0 StandardDev = 6.4545 WeightSum = 957 Precision = 38.72727272727273
+BT_52_cnt:  Normal Distribution. Mean = 0.0389 StandardDev = 0.3598 WeightSum = 957 Precision = 1.5526315789473684
+BT_62_cnt:  Normal Distribution. Mean = 0.0224 StandardDev = 0.2549 WeightSum = 957 Precision = 1.5294117647058822
+BT_72_cnt:  Normal Distribution. Mean = 1.5295 StandardDev = 4.0624 WeightSum = 957 Precision = 1.4814814814814814
+BT_82_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 957 Precision = 0.01
+BT_92_cnt:  Normal Distribution. Mean = 0.0313 StandardDev = 0.6745 WeightSum = 957 Precision = 1.5789473684210527
+BT_13_cnt:  Normal Distribution. Mean = 0.0038 StandardDev = 0.3043 WeightSum = 957 Precision = 1.826086956521739
+BT_103_cnt:  Normal Distribution. Mean = 0.12 StandardDev = 0.6416 WeightSum = 957 Precision = 1.4
+BT_113_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.375 WeightSum = 957 Precision = 2.25
+BT_123_cnt:  Normal Distribution. Mean = 0.0281 StandardDev = 0.2798 WeightSum = 957 Precision = 1.6785714285714286
+BT_133_cnt:  Normal Distribution. Mean = 0.0092 StandardDev = 0.2444 WeightSum = 957 Precision = 1.4666666666666666
+BT_23_cnt:  Normal Distribution. Mean = 0.0591 StandardDev = 0.3121 WeightSum = 957 Precision = 1.6153846153846154
+BT_33_cnt:  Normal Distribution. Mean = 0.1165 StandardDev = 0.9823 WeightSum = 957 Precision = 1.6896551724137931
+BT_43_cnt:  Normal Distribution. Mean = 0 StandardDev = 4.3704 WeightSum = 957 Precision = 26.22222222222222
+BT_53_cnt:  Normal Distribution. Mean = 0.0386 StandardDev = 0.2796 WeightSum = 957 Precision = 1.6774193548387097
+BT_63_cnt:  Normal Distribution. Mean = 0.015 StandardDev = 0.2 WeightSum = 957 Precision = 1.2
+BT_73_cnt:  Normal Distribution. Mean = 0.8146 StandardDev = 2.4228 WeightSum = 957 Precision = 1.4736842105263157
+BT_83_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 957 Precision = 0.01
+BT_93_cnt:  Normal Distribution. Mean = 0.053 StandardDev = 0.502 WeightSum = 957 Precision = 1.88
+
+
+Class BT_8: Prior probability = 0   
+
+text_length:  Normal Distribution. Mean = 0 StandardDev = 1.2043 WeightSum = 0 Precision = 7.2259807073954985
+asciihigh_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.4746 WeightSum = 0 Precision = 2.847826086956522
+caps_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.548 WeightSum = 0 Precision = 3.2880184331797233
+BT_11_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.1839 WeightSum = 0 Precision = 1.103448275862069
+BT_101_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.2267 WeightSum = 0 Precision = 1.3604651162790697
+BT_111_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 0 Precision = 0.01
+BT_121_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 0 Precision = 0.01
+BT_131_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 0 Precision = 0.01
+BT_21_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.4103 WeightSum = 0 Precision = 2.4615384615384617
+BT_31_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.2197 WeightSum = 0 Precision = 1.3181818181818181
+BT_41_cnt:  Normal Distribution. Mean = 0 StandardDev = 6.4375 WeightSum = 0 Precision = 38.625
+BT_51_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.5 WeightSum = 0 Precision = 3.0
+BT_61_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.2 WeightSum = 0 Precision = 1.2
+BT_71_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.2117 WeightSum = 0 Precision = 1.2702702702702702
+BT_81_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 0 Precision = 0.01
+BT_91_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.3704 WeightSum = 0 Precision = 2.2222222222222223
+BT_12_cnt:  Normal Distribution. Mean = 0 StandardDev = 1.0747 WeightSum = 0 Precision = 6.448275862068965
+BT_102_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.1892 WeightSum = 0 Precision = 1.135135135135135
+BT_112_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.5 WeightSum = 0 Precision = 3.0
+BT_122_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.3725 WeightSum = 0 Precision = 2.235294117647059
+BT_132_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.1889 WeightSum = 0 Precision = 1.1333333333333333
+BT_22_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.3851 WeightSum = 0 Precision = 2.310344827586207
+BT_32_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.2204 WeightSum = 0 Precision = 1.3225806451612903
+BT_42_cnt:  Normal Distribution. Mean = 0 StandardDev = 6.4545 WeightSum = 0 Precision = 38.72727272727273
+BT_52_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.2588 WeightSum = 0 Precision = 1.5526315789473684
+BT_62_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.2549 WeightSum = 0 Precision = 1.5294117647058822
+BT_72_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.2469 WeightSum = 0 Precision = 1.4814814814814814
+BT_82_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 0 Precision = 0.01
+BT_92_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.2632 WeightSum = 0 Precision = 1.5789473684210527
+BT_13_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.3043 WeightSum = 0 Precision = 1.826086956521739
+BT_103_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.2333 WeightSum = 0 Precision = 1.4
+BT_113_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.375 WeightSum = 0 Precision = 2.25
+BT_123_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.2798 WeightSum = 0 Precision = 1.6785714285714286
+BT_133_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.2444 WeightSum = 0 Precision = 1.4666666666666666
+BT_23_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.2692 WeightSum = 0 Precision = 1.6153846153846154
+BT_33_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.2816 WeightSum = 0 Precision = 1.6896551724137931
+BT_43_cnt:  Normal Distribution. Mean = 0 StandardDev = 4.3704 WeightSum = 0 Precision = 26.22222222222222
+BT_53_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.2796 WeightSum = 0 Precision = 1.6774193548387097
+BT_63_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.2 WeightSum = 0 Precision = 1.2
+BT_73_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.2456 WeightSum = 0 Precision = 1.4736842105263157
+BT_83_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 0 Precision = 0.01
+BT_93_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.3133 WeightSum = 0 Precision = 1.88
+
+
+Class BT_9: Prior probability = 0.09
+
+text_length:  Normal Distribution. Mean = 3779.7512 StandardDev = 3406.3549 WeightSum = 2694 Precision = 7.2259807073954985
+asciihigh_cnt:  Normal Distribution. Mean = 4.7918 StandardDev = 17.467 WeightSum = 2694 Precision = 2.847826086956522
+caps_cnt:  Normal Distribution. Mean = 58.9707 StandardDev = 81.4915 WeightSum = 2694 Precision = 3.2880184331797233
+BT_11_cnt:  Normal Distribution. Mean = 0.0008 StandardDev = 0.1839 WeightSum = 2694 Precision = 1.103448275862069
+BT_101_cnt:  Normal Distribution. Mean = 1.568 StandardDev = 3.9774 WeightSum = 2694 Precision = 1.3604651162790697
+BT_111_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 2694 Precision = 0.01
+BT_121_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 2694 Precision = 0.01
+BT_131_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 2694 Precision = 0.01
+BT_21_cnt:  Normal Distribution. Mean = 0.17 StandardDev = 0.8419 WeightSum = 2694 Precision = 2.4615384615384617
+BT_31_cnt:  Normal Distribution. Mean = 0.0127 StandardDev = 0.2197 WeightSum = 2694 Precision = 1.3181818181818181
+BT_41_cnt:  Normal Distribution. Mean = 0.1577 StandardDev = 6.4375 WeightSum = 2694 Precision = 38.625
+BT_51_cnt:  Normal Distribution. Mean = 0.0958 StandardDev = 0.593 WeightSum = 2694 Precision = 3.0
+BT_61_cnt:  Normal Distribution. Mean = 0.0673 StandardDev = 0.4291 WeightSum = 2694 Precision = 1.2
+BT_71_cnt:  Normal Distribution. Mean = 0.769 StandardDev = 1.3479 WeightSum = 2694 Precision = 1.2702702702702702
+BT_81_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 2694 Precision = 0.01
+BT_91_cnt:  Normal Distribution. Mean = 1.1524 StandardDev = 4.2957 WeightSum = 2694 Precision = 2.2222222222222223
+BT_12_cnt:  Normal Distribution. Mean = 0 StandardDev = 1.0747 WeightSum = 2694 Precision = 6.448275862068965
+BT_102_cnt:  Normal Distribution. Mean = 0.1365 StandardDev = 0.8585 WeightSum = 2694 Precision = 1.135135135135135
+BT_112_cnt:  Normal Distribution. Mean = 0.0089 StandardDev = 0.5 WeightSum = 2694 Precision = 3.0
+BT_122_cnt:  Normal Distribution. Mean = 0.0033 StandardDev = 0.3725 WeightSum = 2694 Precision = 2.235294117647059
+BT_132_cnt:  Normal Distribution. Mean = 0.0046 StandardDev = 0.1889 WeightSum = 2694 Precision = 1.1333333333333333
+BT_22_cnt:  Normal Distribution. Mean = 0.0077 StandardDev = 0.3851 WeightSum = 2694 Precision = 2.310344827586207
+BT_32_cnt:  Normal Distribution. Mean = 0.0147 StandardDev = 0.2764 WeightSum = 2694 Precision = 1.3225806451612903
+BT_42_cnt:  Normal Distribution. Mean = 0 StandardDev = 6.4545 WeightSum = 2694 Precision = 38.72727272727273
+BT_52_cnt:  Normal Distribution. Mean = 0.0242 StandardDev = 0.2588 WeightSum = 2694 Precision = 1.5526315789473684
+BT_62_cnt:  Normal Distribution. Mean = 0.0829 StandardDev = 0.3537 WeightSum = 2694 Precision = 1.5294117647058822
+BT_72_cnt:  Normal Distribution. Mean = 0.0341 StandardDev = 0.3028 WeightSum = 2694 Precision = 1.4814814814814814
+BT_82_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 2694 Precision = 0.01
+BT_92_cnt:  Normal Distribution. Mean = 1.5889 StandardDev = 4.3307 WeightSum = 2694 Precision = 1.5789473684210527
+BT_13_cnt:  Normal Distribution. Mean = 0.0088 StandardDev = 0.3043 WeightSum = 2694 Precision = 1.826086956521739
+BT_103_cnt:  Normal Distribution. Mean = 0.1439 StandardDev = 0.5518 WeightSum = 2694 Precision = 1.4
+BT_113_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.375 WeightSum = 2694 Precision = 2.25
+BT_123_cnt:  Normal Distribution. Mean = 0.0442 StandardDev = 0.3252 WeightSum = 2694 Precision = 1.6785714285714286
+BT_133_cnt:  Normal Distribution. Mean = 0.0049 StandardDev = 0.2444 WeightSum = 2694 Precision = 1.4666666666666666
+BT_23_cnt:  Normal Distribution. Mean = 0.2183 StandardDev = 0.6277 WeightSum = 2694 Precision = 1.6153846153846154
+BT_33_cnt:  Normal Distribution. Mean = 0.0307 StandardDev = 0.5545 WeightSum = 2694 Precision = 1.6896551724137931
+BT_43_cnt:  Normal Distribution. Mean = 0 StandardDev = 4.3704 WeightSum = 2694 Precision = 26.22222222222222
+BT_53_cnt:  Normal Distribution. Mean = 0.1065 StandardDev = 0.5272 WeightSum = 2694 Precision = 1.6774193548387097
+BT_63_cnt:  Normal Distribution. Mean = 0.0543 StandardDev = 0.3123 WeightSum = 2694 Precision = 1.2
+BT_73_cnt:  Normal Distribution. Mean = 0.0263 StandardDev = 0.529 WeightSum = 2694 Precision = 1.4736842105263157
+BT_83_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 2694 Precision = 0.01
+BT_93_cnt:  Normal Distribution. Mean = 1.5541 StandardDev = 3.0956 WeightSum = 2694 Precision = 1.88
+
+
+Class BT_10: Prior probability = 0.03
+
+text_length:  Normal Distribution. Mean = 2302.2904 StandardDev = 1882.8056 WeightSum = 917 Precision = 7.2259807073954985
+asciihigh_cnt:  Normal Distribution. Mean = 27.0621 StandardDev = 45.4248 WeightSum = 917 Precision = 2.847826086956522
+caps_cnt:  Normal Distribution. Mean = 51.884 StandardDev = 70.4336 WeightSum = 917 Precision = 3.2880184331797233
+BT_11_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.1839 WeightSum = 917 Precision = 1.103448275862069
+BT_101_cnt:  Normal Distribution. Mean = 18.4442 StandardDev = 17.1634 WeightSum = 917 Precision = 1.3604651162790697
+BT_111_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 917 Precision = 0.01
+BT_121_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 917 Precision = 0.01
+BT_131_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 917 Precision = 0.01
+BT_21_cnt:  Normal Distribution. Mean = 0.1315 StandardDev = 0.7642 WeightSum = 917 Precision = 2.4615384615384617
+BT_31_cnt:  Normal Distribution. Mean = 0.0014 StandardDev = 0.2197 WeightSum = 917 Precision = 1.3181818181818181
+BT_41_cnt:  Normal Distribution. Mean = 0.0421 StandardDev = 6.4375 WeightSum = 917 Precision = 38.625
+BT_51_cnt:  Normal Distribution. Mean = 0.0556 StandardDev = 0.5 WeightSum = 917 Precision = 3.0
+BT_61_cnt:  Normal Distribution. Mean = 0.0196 StandardDev = 0.2 WeightSum = 917 Precision = 1.2
+BT_71_cnt:  Normal Distribution. Mean = 0.4474 StandardDev = 1.1543 WeightSum = 917 Precision = 1.2702702702702702
+BT_81_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 917 Precision = 0.01
+BT_91_cnt:  Normal Distribution. Mean = 0.0145 StandardDev = 0.3704 WeightSum = 917 Precision = 2.2222222222222223
+BT_12_cnt:  Normal Distribution. Mean = 0 StandardDev = 1.0747 WeightSum = 917 Precision = 6.448275862068965
+BT_102_cnt:  Normal Distribution. Mean = 4.6668 StandardDev = 6.1271 WeightSum = 917 Precision = 1.135135135135135
+BT_112_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.5 WeightSum = 917 Precision = 3.0
+BT_122_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.3725 WeightSum = 917 Precision = 2.235294117647059
+BT_132_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.1889 WeightSum = 917 Precision = 1.1333333333333333
+BT_22_cnt:  Normal Distribution. Mean = 0.0126 StandardDev = 0.3851 WeightSum = 917 Precision = 2.310344827586207
+BT_32_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.2204 WeightSum = 917 Precision = 1.3225806451612903
+BT_42_cnt:  Normal Distribution. Mean = 0 StandardDev = 6.4545 WeightSum = 917 Precision = 38.72727272727273
+BT_52_cnt:  Normal Distribution. Mean = 0.0457 StandardDev = 0.3169 WeightSum = 917 Precision = 1.5526315789473684
+BT_62_cnt:  Normal Distribution. Mean = 0.01 StandardDev = 0.2549 WeightSum = 917 Precision = 1.5294117647058822
+BT_72_cnt:  Normal Distribution. Mean = 0.0162 StandardDev = 0.2675 WeightSum = 917 Precision = 1.4814814814814814
+BT_82_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 917 Precision = 0.01
+BT_92_cnt:  Normal Distribution. Mean = 0.0052 StandardDev = 0.2632 WeightSum = 917 Precision = 1.5789473684210527
+BT_13_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.3043 WeightSum = 917 Precision = 1.826086956521739
+BT_103_cnt:  Normal Distribution. Mean = 1.6656 StandardDev = 2.286 WeightSum = 917 Precision = 1.4
+BT_113_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.375 WeightSum = 917 Precision = 2.25
+BT_123_cnt:  Normal Distribution. Mean = 0.022 StandardDev = 0.2818 WeightSum = 917 Precision = 1.6785714285714286
+BT_133_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.2444 WeightSum = 917 Precision = 1.4666666666666666
+BT_23_cnt:  Normal Distribution. Mean = 0.0317 StandardDev = 0.2692 WeightSum = 917 Precision = 1.6153846153846154
+BT_33_cnt:  Normal Distribution. Mean = 0.0074 StandardDev = 0.2816 WeightSum = 917 Precision = 1.6896551724137931
+BT_43_cnt:  Normal Distribution. Mean = 0 StandardDev = 4.3704 WeightSum = 917 Precision = 26.22222222222222
+BT_53_cnt:  Normal Distribution. Mean = 0.0274 StandardDev = 0.2796 WeightSum = 917 Precision = 1.6774193548387097
+BT_63_cnt:  Normal Distribution. Mean = 0.0157 StandardDev = 0.2 WeightSum = 917 Precision = 1.2
+BT_73_cnt:  Normal Distribution. Mean = 0.0096 StandardDev = 0.2456 WeightSum = 917 Precision = 1.4736842105263157
+BT_83_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 917 Precision = 0.01
+BT_93_cnt:  Normal Distribution. Mean = 0.0144 StandardDev = 0.3133 WeightSum = 917 Precision = 1.88
+
+
+Class BT_11: Prior probability = 0.24
+
+text_length:  Normal Distribution. Mean = 2801.6551 StandardDev = 2653.9271 WeightSum = 7492 Precision = 7.2259807073954985
+asciihigh_cnt:  Normal Distribution. Mean = 16.107 StandardDev = 33.6544 WeightSum = 7492 Precision = 2.847826086956522
+caps_cnt:  Normal Distribution. Mean = 42.078 StandardDev = 60.5647 WeightSum = 7492 Precision = 3.2880184331797233
+BT_11_cnt:  Normal Distribution. Mean = 0.0013 StandardDev = 0.1839 WeightSum = 7492 Precision = 1.103448275862069
+BT_101_cnt:  Normal Distribution. Mean = 1.0144 StandardDev = 4.1698 WeightSum = 7492 Precision = 1.3604651162790697
+BT_111_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 7492 Precision = 0.01
+BT_121_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 7492 Precision = 0.01
+BT_131_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 7492 Precision = 0.01
+BT_21_cnt:  Normal Distribution. Mean = 0.1994 StandardDev = 1.2205 WeightSum = 7492 Precision = 2.4615384615384617
+BT_31_cnt:  Normal Distribution. Mean = 0.0051 StandardDev = 0.2197 WeightSum = 7492 Precision = 1.3181818181818181
+BT_41_cnt:  Normal Distribution. Mean = 0.0516 StandardDev = 6.4375 WeightSum = 7492 Precision = 38.625
+BT_51_cnt:  Normal Distribution. Mean = 0.0853 StandardDev = 0.617 WeightSum = 7492 Precision = 3.0
+BT_61_cnt:  Normal Distribution. Mean = 0.073 StandardDev = 0.537 WeightSum = 7492 Precision = 1.2
+BT_71_cnt:  Normal Distribution. Mean = 0.5254 StandardDev = 1.176 WeightSum = 7492 Precision = 1.2702702702702702
+BT_81_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 7492 Precision = 0.01
+BT_91_cnt:  Normal Distribution. Mean = 0.0119 StandardDev = 0.3704 WeightSum = 7492 Precision = 2.2222222222222223
+BT_12_cnt:  Normal Distribution. Mean = 0.0034 StandardDev = 1.0747 WeightSum = 7492 Precision = 6.448275862068965
+BT_102_cnt:  Normal Distribution. Mean = 0.2233 StandardDev = 1.2454 WeightSum = 7492 Precision = 1.135135135135135
+BT_112_cnt:  Normal Distribution. Mean = 0.0681 StandardDev = 0.6259 WeightSum = 7492 Precision = 3.0
+BT_122_cnt:  Normal Distribution. Mean = 0.0012 StandardDev = 0.3725 WeightSum = 7492 Precision = 2.235294117647059
+BT_132_cnt:  Normal Distribution. Mean = 0.0045 StandardDev = 0.1889 WeightSum = 7492 Precision = 1.1333333333333333
+BT_22_cnt:  Normal Distribution. Mean = 0.0311 StandardDev = 0.3851 WeightSum = 7492 Precision = 2.310344827586207
+BT_32_cnt:  Normal Distribution. Mean = 0.0272 StandardDev = 0.5612 WeightSum = 7492 Precision = 1.3225806451612903
+BT_42_cnt:  Normal Distribution. Mean = 0 StandardDev = 6.4545 WeightSum = 7492 Precision = 38.72727272727273
+BT_52_cnt:  Normal Distribution. Mean = 0.0346 StandardDev = 0.3777 WeightSum = 7492 Precision = 1.5526315789473684
+BT_62_cnt:  Normal Distribution. Mean = 0.0702 StandardDev = 0.3613 WeightSum = 7492 Precision = 1.5294117647058822
+BT_72_cnt:  Normal Distribution. Mean = 0.0441 StandardDev = 0.3542 WeightSum = 7492 Precision = 1.4814814814814814
+BT_82_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 7492 Precision = 0.01
+BT_92_cnt:  Normal Distribution. Mean = 0.0282 StandardDev = 0.4077 WeightSum = 7492 Precision = 1.5789473684210527
+BT_13_cnt:  Normal Distribution. Mean = 0.0093 StandardDev = 0.3043 WeightSum = 7492 Precision = 1.826086956521739
+BT_103_cnt:  Normal Distribution. Mean = 0.1351 StandardDev = 0.6068 WeightSum = 7492 Precision = 1.4
+BT_113_cnt:  Normal Distribution. Mean = 0.0255 StandardDev = 0.375 WeightSum = 7492 Precision = 2.25
+BT_123_cnt:  Normal Distribution. Mean = 0.0493 StandardDev = 0.4273 WeightSum = 7492 Precision = 1.6785714285714286
+BT_133_cnt:  Normal Distribution. Mean = 0.0186 StandardDev = 0.2742 WeightSum = 7492 Precision = 1.4666666666666666
+BT_23_cnt:  Normal Distribution. Mean = 0.1151 StandardDev = 0.4647 WeightSum = 7492 Precision = 1.6153846153846154
+BT_33_cnt:  Normal Distribution. Mean = 0.0895 StandardDev = 0.7555 WeightSum = 7492 Precision = 1.6896551724137931
+BT_43_cnt:  Normal Distribution. Mean = 0 StandardDev = 4.3704 WeightSum = 7492 Precision = 26.22222222222222
+BT_53_cnt:  Normal Distribution. Mean = 0.0674 StandardDev = 0.4687 WeightSum = 7492 Precision = 1.6774193548387097
+BT_63_cnt:  Normal Distribution. Mean = 0.1706 StandardDev = 1.0898 WeightSum = 7492 Precision = 1.2
+BT_73_cnt:  Normal Distribution. Mean = 0.0077 StandardDev = 0.2456 WeightSum = 7492 Precision = 1.4736842105263157
+BT_83_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 7492 Precision = 0.01
+BT_93_cnt:  Normal Distribution. Mean = 0.1056 StandardDev = 0.4824 WeightSum = 7492 Precision = 1.88
+
+
+Class BT_12: Prior probability = 0.1 
+
+text_length:  Normal Distribution. Mean = 3101.9803 StandardDev = 3161.3873 WeightSum = 3200 Precision = 7.2259807073954985
+asciihigh_cnt:  Normal Distribution. Mean = 17.9529 StandardDev = 37.7145 WeightSum = 3200 Precision = 2.847826086956522
+caps_cnt:  Normal Distribution. Mean = 50.2964 StandardDev = 65.6896 WeightSum = 3200 Precision = 3.2880184331797233
+BT_11_cnt:  Normal Distribution. Mean = 0.001 StandardDev = 0.1839 WeightSum = 3200 Precision = 1.103448275862069
+BT_101_cnt:  Normal Distribution. Mean = 1.3307 StandardDev = 4.8439 WeightSum = 3200 Precision = 1.3604651162790697
+BT_111_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 3200 Precision = 0.01
+BT_121_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 3200 Precision = 0.01
+BT_131_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 3200 Precision = 0.01
+BT_21_cnt:  Normal Distribution. Mean = 0.1177 StandardDev = 0.6595 WeightSum = 3200 Precision = 2.4615384615384617
+BT_31_cnt:  Normal Distribution. Mean = 0.0045 StandardDev = 0.2197 WeightSum = 3200 Precision = 1.3181818181818181
+BT_41_cnt:  Normal Distribution. Mean = 0.0483 StandardDev = 6.4375 WeightSum = 3200 Precision = 38.625
+BT_51_cnt:  Normal Distribution. Mean = 0.1959 StandardDev = 0.9969 WeightSum = 3200 Precision = 3.0
+BT_61_cnt:  Normal Distribution. Mean = 0.0536 StandardDev = 0.6216 WeightSum = 3200 Precision = 1.2
+BT_71_cnt:  Normal Distribution. Mean = 0.5867 StandardDev = 1.2513 WeightSum = 3200 Precision = 1.2702702702702702
+BT_81_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 3200 Precision = 0.01
+BT_91_cnt:  Normal Distribution. Mean = 0.0611 StandardDev = 0.844 WeightSum = 3200 Precision = 2.2222222222222223
+BT_12_cnt:  Normal Distribution. Mean = 0 StandardDev = 1.0747 WeightSum = 3200 Precision = 6.448275862068965
+BT_102_cnt:  Normal Distribution. Mean = 0.3086 StandardDev = 1.6901 WeightSum = 3200 Precision = 1.135135135135135
+BT_112_cnt:  Normal Distribution. Mean = 0.0019 StandardDev = 0.5 WeightSum = 3200 Precision = 3.0
+BT_122_cnt:  Normal Distribution. Mean = 0.1879 StandardDev = 1.3759 WeightSum = 3200 Precision = 2.235294117647059
+BT_132_cnt:  Normal Distribution. Mean = 0.0057 StandardDev = 0.1889 WeightSum = 3200 Precision = 1.1333333333333333
+BT_22_cnt:  Normal Distribution. Mean = 0.0368 StandardDev = 0.5452 WeightSum = 3200 Precision = 2.310344827586207
+BT_32_cnt:  Normal Distribution. Mean = 0.0141 StandardDev = 0.2579 WeightSum = 3200 Precision = 1.3225806451612903
+BT_42_cnt:  Normal Distribution. Mean = 0.0121 StandardDev = 6.4545 WeightSum = 3200 Precision = 38.72727272727273
+BT_52_cnt:  Normal Distribution. Mean = 0.0344 StandardDev = 0.2588 WeightSum = 3200 Precision = 1.5526315789473684
+BT_62_cnt:  Normal Distribution. Mean = 0.0411 StandardDev = 0.2753 WeightSum = 3200 Precision = 1.5294117647058822
+BT_72_cnt:  Normal Distribution. Mean = 0.075 StandardDev = 0.5117 WeightSum = 3200 Precision = 1.4814814814814814
+BT_82_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 3200 Precision = 0.01
+BT_92_cnt:  Normal Distribution. Mean = 0.1135 StandardDev = 0.8736 WeightSum = 3200 Precision = 1.5789473684210527
+BT_13_cnt:  Normal Distribution. Mean = 0.0017 StandardDev = 0.3043 WeightSum = 3200 Precision = 1.826086956521739
+BT_103_cnt:  Normal Distribution. Mean = 0.1741 StandardDev = 0.7718 WeightSum = 3200 Precision = 1.4
+BT_113_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.375 WeightSum = 3200 Precision = 2.25
+BT_123_cnt:  Normal Distribution. Mean = 0.7339 StandardDev = 2.8423 WeightSum = 3200 Precision = 1.6785714285714286
+BT_133_cnt:  Normal Distribution. Mean = 0.0197 StandardDev = 0.2444 WeightSum = 3200 Precision = 1.4666666666666666
+BT_23_cnt:  Normal Distribution. Mean = 0.0772 StandardDev = 0.3563 WeightSum = 3200 Precision = 1.6153846153846154
+BT_33_cnt:  Normal Distribution. Mean = 0.0523 StandardDev = 0.4328 WeightSum = 3200 Precision = 1.6896551724137931
+BT_43_cnt:  Normal Distribution. Mean = 0 StandardDev = 4.3704 WeightSum = 3200 Precision = 26.22222222222222
+BT_53_cnt:  Normal Distribution. Mean = 0.0608 StandardDev = 0.3531 WeightSum = 3200 Precision = 1.6774193548387097
+BT_63_cnt:  Normal Distribution. Mean = 0.0319 StandardDev = 0.2756 WeightSum = 3200 Precision = 1.2
+BT_73_cnt:  Normal Distribution. Mean = 0.0364 StandardDev = 0.3767 WeightSum = 3200 Precision = 1.4736842105263157
+BT_83_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 3200 Precision = 0.01
+BT_93_cnt:  Normal Distribution. Mean = 0.2561 StandardDev = 1.1762 WeightSum = 3200 Precision = 1.88
+
+
+Class BT_13: Prior probability = 0.14
+
+text_length:  Normal Distribution. Mean = 2703.6771 StandardDev = 2427.1542 WeightSum = 4322 Precision = 7.2259807073954985
+asciihigh_cnt:  Normal Distribution. Mean = 21.8252 StandardDev = 40.882 WeightSum = 4322 Precision = 2.847826086956522
+caps_cnt:  Normal Distribution. Mean = 43.785 StandardDev = 55.9499 WeightSum = 4322 Precision = 3.2880184331797233
+BT_11_cnt:  Normal Distribution. Mean = 0.0008 StandardDev = 0.1839 WeightSum = 4322 Precision = 1.103448275862069
+BT_101_cnt:  Normal Distribution. Mean = 1.6746 StandardDev = 6.2078 WeightSum = 4322 Precision = 1.3604651162790697
+BT_111_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 4322 Precision = 0.01
+BT_121_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 4322 Precision = 0.01
+BT_131_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 4322 Precision = 0.01
+BT_21_cnt:  Normal Distribution. Mean = 0.1982 StandardDev = 1.0524 WeightSum = 4322 Precision = 2.4615384615384617
+BT_31_cnt:  Normal Distribution. Mean = 0.0061 StandardDev = 0.2197 WeightSum = 4322 Precision = 1.3181818181818181
+BT_41_cnt:  Normal Distribution. Mean = 0.0894 StandardDev = 6.4375 WeightSum = 4322 Precision = 38.625
+BT_51_cnt:  Normal Distribution. Mean = 0.1374 StandardDev = 0.7916 WeightSum = 4322 Precision = 3.0
+BT_61_cnt:  Normal Distribution. Mean = 0.2443 StandardDev = 1.696 WeightSum = 4322 Precision = 1.2
+BT_71_cnt:  Normal Distribution. Mean = 0.4791 StandardDev = 1.2891 WeightSum = 4322 Precision = 1.2702702702702702
+BT_81_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 4322 Precision = 0.01
+BT_91_cnt:  Normal Distribution. Mean = 0.0036 StandardDev = 0.3704 WeightSum = 4322 Precision = 2.2222222222222223
+BT_12_cnt:  Normal Distribution. Mean = 0.0075 StandardDev = 1.0747 WeightSum = 4322 Precision = 6.448275862068965
+BT_102_cnt:  Normal Distribution. Mean = 0.4221 StandardDev = 1.9169 WeightSum = 4322 Precision = 1.135135135135135
+BT_112_cnt:  Normal Distribution. Mean = 0.0028 StandardDev = 0.5 WeightSum = 4322 Precision = 3.0
+BT_122_cnt:  Normal Distribution. Mean = 0.0026 StandardDev = 0.3725 WeightSum = 4322 Precision = 2.235294117647059
+BT_132_cnt:  Normal Distribution. Mean = 0.1833 StandardDev = 1.0134 WeightSum = 4322 Precision = 1.1333333333333333
+BT_22_cnt:  Normal Distribution. Mean = 0.0225 StandardDev = 0.3851 WeightSum = 4322 Precision = 2.310344827586207
+BT_32_cnt:  Normal Distribution. Mean = 0.0171 StandardDev = 0.2491 WeightSum = 4322 Precision = 1.3225806451612903
+BT_42_cnt:  Normal Distribution. Mean = 0.0179 StandardDev = 6.4545 WeightSum = 4322 Precision = 38.72727272727273
+BT_52_cnt:  Normal Distribution. Mean = 0.0478 StandardDev = 0.4257 WeightSum = 4322 Precision = 1.5526315789473684
+BT_62_cnt:  Normal Distribution. Mean = 0.0931 StandardDev = 0.5207 WeightSum = 4322 Precision = 1.5294117647058822
+BT_72_cnt:  Normal Distribution. Mean = 0.047 StandardDev = 0.401 WeightSum = 4322 Precision = 1.4814814814814814
+BT_82_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 4322 Precision = 0.01
+BT_92_cnt:  Normal Distribution. Mean = 0.023 StandardDev = 0.2718 WeightSum = 4322 Precision = 1.5789473684210527
+BT_13_cnt:  Normal Distribution. Mean = 0.0068 StandardDev = 0.3043 WeightSum = 4322 Precision = 1.826086956521739
+BT_103_cnt:  Normal Distribution. Mean = 0.1746 StandardDev = 0.7395 WeightSum = 4322 Precision = 1.4
+BT_113_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.375 WeightSum = 4322 Precision = 2.25
+BT_123_cnt:  Normal Distribution. Mean = 0.0322 StandardDev = 0.2836 WeightSum = 4322 Precision = 1.6785714285714286
+BT_133_cnt:  Normal Distribution. Mean = 0.2087 StandardDev = 0.9289 WeightSum = 4322 Precision = 1.4666666666666666
+BT_23_cnt:  Normal Distribution. Mean = 0.0946 StandardDev = 0.4186 WeightSum = 4322 Precision = 1.6153846153846154
+BT_33_cnt:  Normal Distribution. Mean = 0.1575 StandardDev = 0.9434 WeightSum = 4322 Precision = 1.6896551724137931
+BT_43_cnt:  Normal Distribution. Mean = 0 StandardDev = 4.3704 WeightSum = 4322 Precision = 26.22222222222222
+BT_53_cnt:  Normal Distribution. Mean = 0.0598 StandardDev = 0.4022 WeightSum = 4322 Precision = 1.6774193548387097
+BT_63_cnt:  Normal Distribution. Mean = 0.075 StandardDev = 0.4936 WeightSum = 4322 Precision = 1.2
+BT_73_cnt:  Normal Distribution. Mean = 0.0181 StandardDev = 0.2656 WeightSum = 4322 Precision = 1.4736842105263157
+BT_83_cnt:  Normal Distribution. Mean = 0 StandardDev = 0.0017 WeightSum = 4322 Precision = 0.01
+BT_93_cnt:  Normal Distribution. Mean = 0.0809 StandardDev = 0.5147 WeightSum = 4322 Precision = 1.88
+
+
+Time taken to build model: 1.44 seconds
+Time taken to test model on training data: 12.02 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances       10503               33.7554 %
+Incorrectly Classified Instances     20612               66.2446 %
+Kappa statistic                          0.2129
+Mean absolute error                      0.1086
+Root mean squared error                  0.2758
+Relative absolute error                 80.6126 %
+Root relative squared error            106.2477 %
+Total Number of Instances            31115     
+
+
+=== Confusion Matrix ===
+
+    a    b    c    d    e    f    g    h    i    j    k    l    m   <-- classified as
+  292   52   17  239   22   39    8    0  237   84 1127   25   63 |    a = BT_1
+    4  277    0   56    0    1    0    0   10    3  164    3    0 |    b = BT_2
+    8   55  266  201   74   14   36    0   16   97 1460   29   41 |    c = BT_3
+    3   16    6  326   53   19   12    0   22   26  734    8    9 |    d = BT_4
+    2   10   14  350  665   57   37    0   13   50  947    8   15 |    e = BT_5
+    8   17   10  469  108 1040   24    0   22   47 1314   16   36 |    f = BT_6
+    4    8    9  108   62    6  286    0   13   27  412   13    9 |    g = BT_7
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    h = BT_8
+   18   27   19  384   42   60   34    0  851   34 1167   45   13 |    i = BT_9
+    2    1    4   41   11    2    2    0    6  566  269    3   10 |    j = BT_10
+   44  133   72 1080  134  306   80    0  158  243 4973  138  131 |    k = BT_11
+   14   36   23  459   78   41   74    0  169  107 1704  453   42 |    l = BT_12
+   24   70   82  538  120  184   61    0   71  263 2336   65  508 |    m = BT_13
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances       10191               32.7527 %
+Incorrectly Classified Instances     20924               67.2473 %
+Kappa statistic                          0.2065
+Mean absolute error                      0.1086
+Root mean squared error                  0.2765
+Relative absolute error                 80.5749 %
+Root relative squared error            106.5358 %
+Total Number of Instances            31115     
+
+
+=== Confusion Matrix ===
+
+    a    b    c    d    e    f    g    h    i    j    k    l    m   <-- classified as
+  280   53   20  279   20   34    9    0  241   86 1092   31   60 |    a = BT_1
+    3  282    0   44    0    1    1    0   11    4  169    3    0 |    b = BT_2
+    8   56  251  373   74   14   36    0   19   95 1300   36   35 |    c = BT_3
+    3   16    7  354   52   18   15    0   23   25  706    8    7 |    d = BT_4
+    3   11   14  401  654   54   37    0   11   56  902    7   18 |    e = BT_5
+    8   18   10  462   97 1034   26    0   22   47 1329   21   37 |    f = BT_6
+    3    7   10  118   62    5  286    0   11   26  406   13   10 |    g = BT_7
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    h = BT_8
+   16   25   17  371   42   58   36    0  871   34 1168   45   11 |    i = BT_9
+    2    1    2   36   10    2    2    0    6  570  275    3    8 |    j = BT_10
+   41  132   66 1476  121  286   89    0  158  240 4607  155  121 |    k = BT_11
+   11   37   20  522   81   40   75    0  171  105 1583  510   45 |    l = BT_12
+   28   75   79  701  119  189   63    0   73  263 2176   64  492 |    m = BT_13
+

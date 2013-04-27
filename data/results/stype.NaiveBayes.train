@@ -1,0 +1,71 @@
+++ generating and saving model file
+
+Naive Bayes Classifier
+
+Class BN: Prior probability = 0.22
+
+text_length:  Normal Distribution. Mean = 1180.1572 StandardDev = 1637.1592 WeightSum = 21732 Precision = 5.692260940032415
+asciihigh_cnt:  Normal Distribution. Mean = 4.0627 StandardDev = 17.485 WeightSum = 21732 Precision = 2.5436893203883497
+caps_cnt:  Normal Distribution. Mean = 18.5247 StandardDev = 40.9702 WeightSum = 21732 Precision = 4.2220309810671255
+BN1_cnt:  Normal Distribution. Mean = 67.1907 StandardDev = 98.9003 WeightSum = 21732 Precision = 3.096885813148789
+NWIRE1_cnt:  Normal Distribution. Mean = 12.408 StandardDev = 18.5376 WeightSum = 21732 Precision = 2.124203821656051
+BN2_cnt:  Normal Distribution. Mean = 1.205 StandardDev = 2.2846 WeightSum = 21732 Precision = 1.3888888888888888
+NWIRE2_cnt:  Normal Distribution. Mean = 0.9302 StandardDev = 1.6275 WeightSum = 21732 Precision = 1.8970588235294117
+BN3_cnt:  Normal Distribution. Mean = 0.6272 StandardDev = 1.58 WeightSum = 21732 Precision = 1.8666666666666667
+NWIRE3_cnt:  Normal Distribution. Mean = 0.1264 StandardDev = 0.5057 WeightSum = 21732 Precision = 1.4193548387096775
+
+
+Class NWIRE: Prior probability = 0.78
+
+text_length:  Normal Distribution. Mean = 2621.6881 StandardDev = 2528.2339 WeightSum = 75351 Precision = 5.692260940032415
+asciihigh_cnt:  Normal Distribution. Mean = 10.5208 StandardDev = 28.3199 WeightSum = 75351 Precision = 2.5436893203883497
+caps_cnt:  Normal Distribution. Mean = 35.2953 StandardDev = 70.6551 WeightSum = 75351 Precision = 4.2220309810671255
+BN1_cnt:  Normal Distribution. Mean = 145.8389 StandardDev = 148.1229 WeightSum = 75351 Precision = 3.096885813148789
+NWIRE1_cnt:  Normal Distribution. Mean = 29.4289 StandardDev = 29.1179 WeightSum = 75351 Precision = 2.124203821656051
+BN2_cnt:  Normal Distribution. Mean = 0.8297 StandardDev = 1.5361 WeightSum = 75351 Precision = 1.3888888888888888
+NWIRE2_cnt:  Normal Distribution. Mean = 2.7567 StandardDev = 3.6939 WeightSum = 75351 Precision = 1.8970588235294117
+BN3_cnt:  Normal Distribution. Mean = 0.2118 StandardDev = 0.7439 WeightSum = 75351 Precision = 1.8666666666666667
+NWIRE3_cnt:  Normal Distribution. Mean = 0.7514 StandardDev = 1.5414 WeightSum = 75351 Precision = 1.4193548387096775
+
+
+Time taken to build model: 1.25 seconds
+Time taken to test model on training data: 0.88 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances       56511               58.209  %
+Incorrectly Classified Instances     40572               41.791  %
+Kappa statistic                          0.2439
+Mean absolute error                      0.3946
+Root mean squared error                  0.5522
+Relative absolute error                113.5508 %
+Root relative squared error            132.4683 %
+Total Number of Instances            97083     
+
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 19485  2247 |     a = BN
+ 38325 37026 |     b = NWIRE
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances       56557               58.2563 %
+Incorrectly Classified Instances     40526               41.7437 %
+Kappa statistic                          0.2448
+Mean absolute error                      0.3955
+Root mean squared error                  0.5542
+Relative absolute error                113.8205 %
+Root relative squared error            132.9609 %
+Total Number of Instances            97083     
+
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 19513  2219 |     a = BN
+ 38307 37044 |     b = NWIRE
+

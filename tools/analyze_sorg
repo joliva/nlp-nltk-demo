@@ -1,0 +1,18 @@
+./runSourceNO data/models/sourceNO.model ../tdt4 -Rtrain -M > tempfilesn
+
+for c in APW NYT CNN ABC NBC PRI VOA MNB XIN ZBN CBS CTS VOM CNR CTV AFP ALH ANN VAR NTV
+do
+	tools/wfreq $c tempfilesn analysis/sorg/1/$c
+done
+
+for c in APW NYT CNN ABC NBC PRI VOA MNB XIN ZBN CBS CTS VOM CNR CTV AFP ALH ANN VAR NTV
+do
+	tools/w2freq $c tempfilesn analysis/sorg/2/$c
+done
+
+for c in APW NYT CNN ABC NBC PRI VOA MNB XIN ZBN CBS CTS VOM CNR CTV AFP ALH ANN VAR NTV
+do
+	tools/w3freq $c tempfilesn analysis/sorg/3/$c
+done
+
+rm tempfilesn

@@ -1,0 +1,14 @@
+# print single word frequencies for lines in infile with given class
+
+usage="usage: wfreq class infile outfile"
+
+if [ $# -eq 3 ]
+then
+	grep $1 $2 | tr -sc 'A-Za-z' '\012' > $2_3
+	sort $2_3 | uniq -c | sort -r > $2_4
+	sed -e 's/$/\t'$1'/' $2_4 > $3
+	rm $2_3 $2_4
+else
+	echo $usage
+fi
+
